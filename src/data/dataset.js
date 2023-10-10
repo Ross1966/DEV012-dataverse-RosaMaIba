@@ -1,98 +1,81 @@
 export default [
+  //ANIMALES OMNIVOROS
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "oso",
+    "name": "Oso",
+    "shortDescription": "Un mamífero carnívoro de gran tamaño y fuerza.",
+    "description": "El oso es un mamífero grande y poderoso que se encuentra en diversas partes del mundo. Hay varias especies de osos, cada una con sus propias características únicas y hábitats. Los osos son conocidos por su fuerza y adaptabilidad, lo que les permite sobrevivir en una variedad de entornos, desde bosques hasta tundras. Aunque son omnívoros, la dieta de los osos puede incluir peces, bayas, frutas, insectos y mamíferos pequeños. Algunas de las especies de osos más conocidas incluyen el oso pardo, el oso polar y el panda gigante.",
+    "imageUrl": "URL_DE_LA_IMAGEN_DEL_OSO",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "habitat": "Varía según la especie, desde bosques hasta tundras y selvas tropicales.",
+      "estadoDeConservacion": "Varía según la especie; algunas en peligro de extinción.",
+      "dieta": "Omnívora, se alimenta de una variedad de alimentos.",
+      "longevidad": "La longevidad varía según la especie, generalmente entre 20 y 30 años en la naturaleza."
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "cerdo",
+    "name": "Cerdo",
+    "shortDescription": "Un mamífero domesticado criado por su carne y otros productos.",
+    "description": "El cerdo (Sus scrofa domesticus) es un mamífero domesticado que ha sido criado por los seres humanos durante miles de años. Es una de las principales fuentes de carne en muchas culturas y se utiliza para producir una variedad de productos como jamón, tocino y salchichas. Los cerdos son conocidos por su apetito voraz y su capacidad para adaptarse a una variedad de entornos. Son animales sociales que a menudo se crían en granjas. Los cerdos pueden variar en tamaño y color, pero generalmente tienen cuerpos compactos, hocicos alargados y orejas caídas.",
+    "imageUrl": "URL_DE_LA_IMAGEN_DEL_CERDO",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "habitat": "Criados en granjas en todo el mundo",
+      "usoPrincipal": "Producción de carne y productos relacionados",
+      "dieta": "Omnívora, se alimenta de una variedad de alimentos, incluyendo granos, vegetales y desechos de cocina.",
+      "longevidad": "Aproximadamente 15-20 años en cautiverio."
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "mapache",
+    "name": "Mapache",
+    "shortDescription": "Un pequeño mamífero conocido por sus hábitos nocturnos y su apariencia característica.",
+    "description": "El mapache (Procyon lotor) es un pequeño mamífero omnívoro que se encuentra en América del Norte y partes de América Central y América del Sur. Son conocidos por sus hábitos nocturnos y su apariencia característica, que incluye un pelaje grisáceo, una máscara facial distintiva y una cola larga y anillada. Los mapaches son animales inteligentes y adaptables que pueden vivir en una variedad de entornos, desde bosques hasta áreas urbanas. Son conocidos por su capacidad para abrir contenedores y su dieta variada, que incluye frutas, insectos, peces y pequeños mamíferos.",
+    "imageUrl": "URL_DE_LA_IMAGEN_DEL_MAPACHE",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "habitat": "Bosques, zonas urbanas y rurales en América del Norte y partes de América Central y América del Sur.",
+      "comportamiento": "Mayormente nocturnos y solitarios, pero pueden ser sociales en algunas circunstancias.",
+      "dieta": "Omnívora, se alimenta de una variedad de alimentos, incluyendo frutas, insectos y pequeños vertebrados.",
+      "longevidad": "Aproximadamente 2-3 años en la naturaleza y más en cautiverio."
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "raton",
+    "name": "Ratón",
+    "shortDescription": "Pequeño roedor conocido por su tamaño diminuto y su capacidad de reproducción rápida.",
+    "description": "El ratón es un pequeño roedor que pertenece a la familia Muridae. Son ampliamente distribuidos en todo el mundo y son conocidos por su tamaño diminuto y su capacidad de reproducción rápida. Los ratones tienen un papel importante en los ecosistemas al servir como presas para numerosos depredadores. También pueden ser considerados plagas en entornos urbanos y agrícolas debido a su capacidad para dañar cultivos y propagar enfermedades. A pesar de su pequeño tamaño, los ratones tienen un comportamiento social y pueden vivir en colonias.",
+    "imageUrl": "URL_DE_LA_IMAGEN_DEL_RATON",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "habitat": "Se encuentran en una variedad de hábitats, desde campos y bosques hasta entornos urbanos.",
+      "comportamiento": "Mayormente nocturnos y sociales, pueden vivir en colonias.",
+      "dieta": "Omnívora, se alimenta de granos, semillas, insectos y desperdicios humanos.",
+      "longevidad": "Aproximadamente 1-2 años en la naturaleza y hasta 3 años en cautiverio."
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "gallina",
+    "name": "Gallina",
+    "shortDescription": "Ave domesticada conocida por la producción de huevos y carne.",
+    "description": "La gallina (Gallus gallus domesticus) es una ave domesticada que se cría en todo el mundo por su producción de huevos y carne. Las gallinas son parte de la familia de los faisanes y son aves de corral comunes en granjas. Se crían en una variedad de razas que varían en tamaño, color y propósito. Además de su importancia económica, las gallinas son animales sociales que a menudo viven en grupos llamados bandadas. Son conocidas por sus vocalizaciones, que incluyen cacareos y cacareos cuando ponen huevos.",
+    "imageUrl": "URL_DE_LA_IMAGEN_DE_LA_GALLINA",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "habitat": "Principalmente criadas en granjas en todo el mundo.",
+      "usoPrincipal": "Producción de huevos y carne.",
+      "dieta": "Omnívora, se alimenta de granos, semillas, insectos y vegetación.",
+      "longevidad": "Aproximadamente 5-10 años en cautiverio."
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "perro",
+    "name": "Perro",
+    "shortDescription": "Mamífero domesticado conocido como el mejor amigo del hombre.",
+    "description": "El perro (Canis lupus familiaris) es un mamífero domesticado que ha sido el compañero del ser humano durante miles de años. Conocido como el mejor amigo del hombre, los perros desempeñan una variedad de roles en la sociedad, desde mascotas y compañeros leales hasta perros de trabajo en áreas como la policía y el rescate. Existen innumerables razas de perros, cada una con su propia apariencia y personalidad. Los perros son conocidos por su inteligencia, lealtad y capacidad de formar fuertes vínculos con sus dueños.",
+    "imageUrl": "URL_DE_LA_IMAGEN_DEL_PERRO",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "habitat": "Viven en hogares y comunidades en todo el mundo.",
+      "usoPrincipal": "Mascotas, trabajo, compañía y servicio.",
+      "dieta": "Omnívora, se alimenta de alimentos procesados y ocasionalmente carne.",
+      "longevidad": "Varía según la raza, generalmente entre 10 y 15 años en promedio."
     }
   },
   {
