@@ -8,10 +8,27 @@
   <body>
     <h1>InfoZoo</h1>
 
-    <ul id="root" itemscope itemtype="Animal">
-      <img src="" alt="">
-      <li>Nombre: </li><span itemprop="name"></span>
+    <ul id="root" itemtype="Animal0">
+      <h2>Leon</h2>
+      <img src="https://www.aprenderjuntos.cl/wp-content/uploads/2020/08/LEON-SERIO-.jpg" alt="León">
+      <li itemscope itemprop="name">Nombre: </li>
+      <li itemscope itemprop="description" >Descripción: </li>
+      <li itemscope itemprop="promediodevida">Promedio de vida: </li>
+      <li itemscope itemprop="habitad">Habitad: </li>
+      <li itemscope itemprop="distinción">Distinción: </li>
+      <li itemscope itemprop="peso">Peso: </li>
+      <li itemscope itemprop="dieta">Dieta: </li>
     </ul>
+
+    <select data-testid="select-filter" name="type" id="">
+      <option value="name">Nombre</option>
+      <option value="decription">Descripción</option>
+      <option value="promediodevida">Promedio de vida</option>
+      <option value="habitad">Habitad</option>
+      <option value="distinción">Distinción</option>
+      <option value="peso">Peso</option>
+      <option value="dieta">Dieta</option>
+    </select>
     <script src="main.js" type="module"></script>
   </body>
 </html>
