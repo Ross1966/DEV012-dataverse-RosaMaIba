@@ -3,4 +3,7 @@ import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
 
-console.log(example, renderItems(data), data);
+const root = document.querySelector("#root");
+root.innerHTML = renderItems(data);
+
+//console.log(data, renderItems(data), data);
