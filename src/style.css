@@ -6,7 +6,7 @@ text-align: center;
     background: seagreen;
     margin: 45px;
     padding: 45px;
-    width: 50%;
+    width: 80%;
      }
     
     img {
@@ -16,10 +16,17 @@ text-align: center;
     
     li {
     
-     margin: 10px;	
+     margin: 40px;
+     padding: 30px;	
      list-style: none;
+     background: #BFF1A0;	
+     color: black;
+     border-radius: 20px 10px 50px 30px;
+     font-size: large;
+
     }
     
     ul{
-     background: #BFF1A0;	
+     
+     margin: 10px;
     }
