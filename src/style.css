@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+#root {
+    background: seagreen;
+    margin: 45px;
+    padding: 45px;
+    width: 50%;
+}
+img {
+    width: 60%;
+    margin: 10px;
+}
+li {
+    margin: 10px;
+    list-style: none;
+}
+ul{
+    background: #BFF1A0;
+}
