@@ -1,0 +1,39 @@
+*{
+    background-color: #98d175;
+}
+h1{
+text-align: center;
+background-color: rgb(227, 241, 227);
+}
+
+img{
+    width: 100%;
+    display: block;
+    padding: 1px 1px 10px 1px;
+}
+ul{
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+li{
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+dl{
+    background-color: #98d175;
+    padding: 5px;
+    border-style: solid;
+    
+}
+dd{
+    background-color: rgb(235, 231, 216);
+    padding: 10px;
+    margin-left: 0%;
+    
+}
+dt{
+    background-color: rgb(235, 231, 216);
+    
+}
