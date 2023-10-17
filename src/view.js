@@ -10,6 +10,8 @@ export const renderItems = (data) => {
      <img src="${animal.imageUrl}" alt=${animal.name} />
      <dt>Nombre:</dt><dd itemprop =''>${animal.name}</dd>
      <dt>Descripción:</dt><dd itemprop =''>${animal.shortDescription}</dd>
+     <dt>Habitat</dt><dd itemprop =''>${animal.facts.habitat}</dd>
+     <dt>Dieta</dt><dd itemprop =''>${animal.facts.dieta}</dd>
      <dt>Peso en Kilos</dt><dd itemprop =''>${animal.facts.pesoenKilos}</dd>
      <dt>Años de Vida</dt><dd itemprop =''>${animal.facts.añosdevida}</dd>
      </dl>

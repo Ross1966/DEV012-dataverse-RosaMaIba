@@ -8,17 +8,24 @@
   <body>
     <h1>InfoZoo</h1>
 
+
+  <label for="select-dieta">Tipo de Dieta</label><br>
+
+  <select name="dieta">
+   <option value="">--Elige una Opción--</option>
+   <option value="Omnívora">Omnivoros</option>
+   <option value="Insectívora">Insectivoros</option>
+   <option value="Frugívora">Frugívoros</option>
+   <option value="Carnívoro">Carnívoros</option>
+   <option value="Herbívoro">Hervívoros</option>
+   
+  </select>
+
+
     <main id="root">
       
     </main>
-    
-
-    <select data-testid="select-filter" name="type" id="">
-      <option value="promediodevida">Promedio de vida</option>
-      <option value="habitad">Habitad</option>
-      <option value="peso">Peso</option>
-      <option value="dieta">Dieta</option>
-    </select>
+        
     <script src="main.js" type="module"></script>
   </body>
 </html>

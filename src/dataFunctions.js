@@ -1,9 +1,82 @@
 // Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
 
-export const example = () => {
-  return 'example';
+
+
+// FUNCION PARA FILTRAR LA INFORMACION POR TIPO DE DIETA
+export const filterData = (data, filtrar) => {
+
+  //const valor = data.facts.dieta;
+  let resultado = [];
+
+
+
+  if (filtrar  === ''){
+
+    return null}else{
+     
+    resultado = data.filter((data) => data.facts.dieta === filtrar);
+    
+    //return resultado
+
+    console.log(resultado)
+  }
+
+  return resultado 
 };
 
-export const anotherExample = () => {
-  return [];
-};
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+/*if (filtrar  === ''){
+
+    return null}else{
+     
+    resultado = data.filter((data) => (filtrar.value === "data.facts.dieta"));
+
+
+   console.log(filtrar)
+
+    
+  }*/
+
+
+
+
+
+  
+  
+
+//data.filter((data) => (valor === filterBy.value));
+
+
+ 
+
+    
+
+
+
+
+
+
+
