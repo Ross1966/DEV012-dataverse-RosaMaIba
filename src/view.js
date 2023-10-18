@@ -25,6 +25,6 @@ export const renderItems = (data) => {
 
   //console.log(data)
   
-  return `<ul>${elemento}</ul>`;
+  return `<ul type='none'>${elemento}</ul>`;
 };
 

@@ -1,14 +1,27 @@
 // Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
 
+//ORDENAMIENTO
+export const sortData = (data, sortBy, sortOrder) => {
+  
+  data.sort((a, b) => {
+    if(sortOrder === "asc"){
+      //console.log("ascendente")
+      return a.name.localeCompare(b.name)
+    }else if(sortOrder === "desc"){
+      //console.log("descendente")
+      return b.name.localeCompare(a.name)
+    }
+      
+  })
+  
+ 
+};
 
 
 // FUNCION PARA FILTRAR LA INFORMACION POR TIPO DE DIETA
 export const filterData = (data, filtrar) => {
 
-  //const valor = data.facts.dieta;
   let resultado = [];
-
-
 
   if (filtrar  === ''){
 
@@ -18,7 +31,7 @@ export const filterData = (data, filtrar) => {
     
     //return resultado
 
-    console.log(resultado)
+  // console.log(resultado)
   }
 
   return resultado 

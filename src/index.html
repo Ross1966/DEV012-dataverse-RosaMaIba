@@ -9,7 +9,7 @@
     <h1>InfoZoo</h1>
 
 
-  <label for="select-dieta">Tipo de Dieta</label><br>
+  <label for="select-dieta">Tipo de Dieta</label>
 
   <select name="dieta">
    <option value="">--Elige una Opción--</option>
@@ -20,6 +20,13 @@
    <option value="Herbívoro">Hervívoros</option>
    
   </select>
+
+
+  <label for="ordenar">Ordenar de:</label>
+    <select name="letra" data-testid="select-sort">
+      <option value="asc" id="asc">A - Z</option>
+      <option value="desc" id="desc">Z - A</option>
+    </select>
 
 
     <main id="root">
