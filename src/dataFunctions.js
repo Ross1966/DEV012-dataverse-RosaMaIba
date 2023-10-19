@@ -1,13 +1,6 @@
-// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
 
-export const filtrar = () => {
-  return 'example';
-};
-
+//ORDENAMIENTO
 export const sortData = (data, sortBy, sortOrder) => {
-  
-  console.log(data, sortOrder, sortBy)
-
 
   data.sort((a, b) => {
     if(sortOrder === "asc"){
@@ -21,4 +14,31 @@ export const sortData = (data, sortBy, sortOrder) => {
   })
   
  
+};
+
+// FUNCION PARA FILTRAR LA INFORMACION POR TIPO DE DIETA
+export const filterData = (data, filtrar) => {
+  let resultado = [];
+  if (filtrar  === ''){
+    return null
+  }else{
+    resultado = data.filter((data) => data.facts.dieta === filtrar);
+    //return resultado
+    console.log(resultado)
+  }
+  return resultado
+
+};
+
+export const filterData2 = (data, filtrar) => {
+  let resultado = [];
+  if (filtrar  === ''){
+    return null
+  }else{
+    resultado = data.filter((data) => data.facts.habitad === filtrar);
+    //return resultado
+    console.log(resultado)
+  }
+  return resultado
+
 };

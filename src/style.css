@@ -3,7 +3,7 @@
 }
 h1{
 text-align: center;
-background-color: rgb(227, 241, 227);
+background-color: rgb(235, 231, 216);
 }
 
 img{
@@ -17,7 +17,7 @@ ul{
     margin: 20px auto;
 }
 li{
-    background-color: aliceblue;
+    background-color: rgb(235, 231, 216);
     margin-bottom: 10px;
     padding: 30px;
 }
