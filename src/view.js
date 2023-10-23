@@ -8,12 +8,18 @@ export const renderItems = (data) => {
      ${animal.id}
      <dl itemscope itemtype="Animales">
      <img src="${animal.imageUrl}" alt=${animal.name} />
-     <dt>Nombre:</dt><dd itemprop =''>${animal.name}</dd>
-     <dt>Descripción:</dt><dd itemprop =''>${animal.shortDescription}</dd>
-     <dt>Habitat</dt><dd itemprop =''>${animal.facts.habitat}</dd>
-     <dt>Dieta</dt><dd itemprop =''>${animal.facts.dieta}</dd>
-     <dt>Peso en Kilos</dt><dd itemprop =''>${animal.facts.pesoenKilos}</dd>
-     <dt>Años de Vida</dt><dd itemprop =''>${animal.facts.añosdevida}</dd>
+     <dt>Nombre: </dt>
+     <dd itemprop =''>${animal.name}</dd>
+     <dt>Descripción: </dt>
+     <dd itemprop =''>${animal.shortDescription}</dd>
+     <dt>Peso en Kilos: </dt>
+     <dd itemprop =''>${animal.facts.pesoenKilos}</dd>
+     <dt>Años de Vida: </dt>
+     <dd itemprop =''>${animal.facts.añosdevida}</dd>
+     <dt>Habitad: </dt>
+     <dd itemprop =''>${animal.facts.habitad}</dd>
+     <dt>Dieta: </dt>
+     <dd itemprop =''>${animal.facts.dieta}</dd>
      </dl>
      </li>
    
@@ -25,6 +31,9 @@ export const renderItems = (data) => {
 
   //console.log(data)
   
-  return `<ul type='none'>${elemento}</ul>`;
+  return `<ul type="none">${elemento}</ul>`;
 };
+
+
+  
 

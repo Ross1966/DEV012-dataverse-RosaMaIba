@@ -6,33 +6,59 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
     <h1>InfoZoo</h1>
-
-
-  <label for="select-dieta">Tipo de Dieta</label>
-
-  <select name="dieta">
-   <option value="">--Elige una Opción--</option>
-   <option value="Omnívora">Omnivoros</option>
-   <option value="Insectívora">Insectivoros</option>
-   <option value="Frugívora">Frugívoros</option>
-   <option value="Carnívoro">Carnívoros</option>
-   <option value="Herbívoro">Hervívoros</option>
-   
-  </select>
-
 
   <label for="ordenar">Ordenar de:</label>
     <select name="letra" data-testid="select-sort">
+      <option value="">--Elige una Opción--</option>
       <option value="asc" id="asc">A - Z</option>
       <option value="desc" id="desc">Z - A</option>
     </select>
 
+  <label for="select-dieta">Tipo de Dieta</label>
+    <select name="dieta">
+      <option value="">--Elige una Opción--</option>
+      <option value="Omnívora">Omnivoros</option>
+      <option value="Insectívora">Insectivoros</option>
+      <option value="Frugívora">Frugívoros</option>
+      <option value="Carnívoro">Carnívoros</option>
+      <option value="Herbívoro">Hervívoros</option>
+    </select>
 
+  <label for="select-habitad">Habitad</label>
+    <select name="habitad">
+      <option value="">--Elige una Opción--</option>
+      <option value="Bosque">Bosque</option>
+      <option value="Granja">Granja</option>
+      <option value="Campo">Campo</option>
+      <option value="Hogar">Hogar</option>
+      <option value="Cueva">Cueva</option>
+      <option value="Selva">Selva</option>
+      <option value="Jardín">Jardín</option>
+      <option value="Sabana Africana">Sabana Africana</option>
+      <option value="Montaña">Montaña</option>
+      <option value="Desierto">Desierto</option>
+    </select>
+
+    
+    
+    
+
+    <button data-testid="button-clear">Limpiar</button><br><br>
+
+    <p id="calcular">Dieta</p>
+
+    <p id="calcularHabitad">Habitad</p>
+    
     <main id="root">
       
     </main>
-        
+
+   
+    
+  <footer>Autoras Rosa María & Rossy</footer>
+    
     <script src="main.js" type="module"></script>
   </body>
 </html>
