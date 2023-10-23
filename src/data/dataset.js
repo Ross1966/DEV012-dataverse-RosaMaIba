@@ -208,7 +208,7 @@ export default [
   "facts": {
     "habitad": "Sabana Africana",
     "otrosdatos": "Varía según la especie; algunas en peligro de extinción.",
-    "dieta": "Omnivoro.",
+    "dieta": "Carnivoro.",
     "añosdevida": 30,
     "pesoenKilos" : 190
   }
@@ -236,7 +236,7 @@ export default [
   "facts": {
     "habitad": "Bosque",
     "otrosdatos": "Viven prácticamente en todo el mundo.",
-    "dieta": "Carníívoro",
+    "dieta": "Carnívoro",
     "añosdevida": 16,
     "pesoenKilos": 80
   }
@@ -362,7 +362,7 @@ export default [
   "facts": {
     "habitad": "Desierto",
     "otrosdatos": "Las grandes virtudes del camello incluyen la habilidad para transportar cargas pesadas –hasta 200 kilos—y su bien conocida capacidad para sobrevivir en condiciones áridas.",
-    "dieta": "Herbívoro",
+    "dieta": "Herbivoro",
     "añosdevida": 45,
     "pesoenKilos": 700
   }
