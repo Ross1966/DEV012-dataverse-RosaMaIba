@@ -17,7 +17,9 @@ export const renderItems = (data) => {
      <dt>Años de Vida: </dt>
      <dd itemprop =''>${animal.facts.añosdevida}</dd>
      <dt>Habitad: </dt>
-     <dd itemprop =''>${animal.facts.habitat}</dd>
+     <dd itemprop =''>${animal.facts.habitad}</dd>
+     <dt>Dieta: </dt>
+     <dd itemprop =''>${animal.facts.dieta}</dd>
      </dl>
      </li>
    
