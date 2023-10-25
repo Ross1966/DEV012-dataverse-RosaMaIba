@@ -55,6 +55,7 @@ boton.addEventListener("click", function(){
   calcularHabitad.innerHTML = "Habitad"
 });
 
+
 //CALCULOS DE PESO DE CARNIVOROS
 const calcular = document.querySelector('#calcular');
 
@@ -95,3 +96,5 @@ function init() {
 }
 
 init();
+
+//Hola soy el nuevo commit
