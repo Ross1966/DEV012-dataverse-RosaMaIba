@@ -1,26 +1,29 @@
 // Aquí comienza tu código y puedes retornar lo que tu necesites
 export const renderItems = (data) => {
  
-  const  elemento =  data.map((animal) =>   
-    ` <li>
-     ${animal.id}
+  const  elemento =  data.map((animal) => 
+    `
+    <div class="box">
+     <li>
+     <p class="id"><strong>${animal.id}</strong></p>
      <dl itemscope itemtype="Animales">
      <img src="${animal.imageUrl}" alt=${animal.name} />
-     <dt>Nombre: </dt>
+     <dt><strong>Nombre:</strong></dt>
      <dd itemprop =''>${animal.name}</dd>
-     <dt>Descripción: </dt>
+     <dt><strong>Descripción:</strong></dt>
      <dd itemprop =''>${animal.shortDescription}</dd>
-     <dt>Peso en Kilos: </dt>
+     <dt><strong>Peso en Kilos:</strong></dt>
      <dd itemprop =''>${animal.facts.pesoenKilos}</dd>
-     <dt>Años de Vida: </dt>
+     <dt><strong>Años de Vida:</strong></dt>
      <dd itemprop =''>${animal.facts.añosdevida}</dd>
-     <dt>Habitad: </dt>
+     <dt><strong>Habitad:</strong></dt>
      <dd itemprop =''>${animal.facts.habitad}</dd>
-     <dt>Dieta: </dt>
+     <dt><strong>Dieta:</strong></dt>
      <dd itemprop =''>${animal.facts.dieta}</dd>
      </dl>
      </li>
-        
+    </div>
+     
    `
   ).join("");
 

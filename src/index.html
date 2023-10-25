@@ -6,64 +6,86 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-<header>
-    <h1>InfoZoo</h1>
-
-
-
-  <label for="ordenar">Ordenar de:</label>
-    <select name="letra" data-testid="select-sort">
-      <option value="">--Elige una Opción--</option>
-      <option value="asc" id="asc">A - Z</option>
-      <option value="desc" id="desc">Z - A</option>
-    </select>
-
-  <label for="select-dieta">Tipo de Dieta</label>
-    <select name="dieta">
-      <option value="">--Elige una Opción--</option>
-      <option value="Omnívora">Omnivoros</option>
-      <option value="Insectívora">Insectivoros</option>
-      <option value="Frugívora">Frugívoros</option>
-      <option value="Carnívoro">Carnívoros</option>
-      <option value="Herbívoro">Hervívoros</option>
-    </select>
-
-  <label for="select-habitad">Habitad</label>
-    <select name="habitad">
-      <option value="">--Elige una Opción--</option>
-      <option value="Bosque">Bosque</option>
-      <option value="Granja">Granja</option>
-      <option value="Campo">Campo</option>
-      <option value="Hogar">Hogar</option>
-      <option value="Cueva">Cueva</option>
-      <option value="Selva">Selva</option>
-      <option value="Jardín">Jardín</option>
-      <option value="Sabana Africana">Sabana Africana</option>
-      <option value="Montaña">Montaña</option>
-      <option value="Desierto">Desierto</option>
-    </select>
-
+    <div class="contenedorPrincipal">
+      <div class="header">
+        <header>
+          <h1>InfoZoo</h1>
+        </header>
+      </div>
     
-    
-    
+      <div class="contenedor">
+        <div class="contenedor1">
+          <label for="ordenar">Ordenar de:</label>
+          <select name="letra" data-testid="select-sort">
+            <option value="">--Elige una Opción--</option>
+            <option value="asc" id="asc">A - Z</option>
+            <option value="desc" id="desc">Z - A</option>
+          </select>
 
-    <button data-testid="button-clear">Limpiar</button><br><br>
-  </header>
-    <p id="calcular">Dieta</p>
+          <label for="select-dieta">Tipo de Dieta</label>
+          <select name="dieta">
+            <option value="">--Elige una Opción--</option>
+            <option value="Omnívora">Omnivoros</option>
+            <option value="Insectívora">Insectivoros</option>
+            <option value="Frugívora">Frugívoros</option>
+            <option value="Carnívoro">Carnívoros</option>
+            <option value="Herbívoro">Hervívoros</option>
+          </select>
 
-    <p id="calcularHabitad">Habitad</p>
-
-
-    <div class="container">
-    <main id="root">
+          <label for="select-habitad">Habitad</label>
+          <select name="habitad">
+            <option value="">--Elige una Opción--</option>
+            <option value="Bosque">Bosque</option>
+            <option value="Granja">Granja</option>
+            <option value="Campo">Campo</option>
+            <option value="Hogar">Hogar</option>
+            <option value="Cueva">Cueva</option>
+            <option value="Selva">Selva</option>
+            <option value="Jardín">Jardín</option>
+            <option value="Sabana Africana">Sabana Africana</option>
+            <option value="Montaña">Montaña</option>
+            <option value="Desierto">Desierto</option>
+          </select>
       
-    </main>
-    </div>
+        
+            <p id="calcular">Dieta</p>
 
-   
+            <p id="calcularHabitad">Habitad</p>
+
+
+          <button class="boton" data-testid="button-clear">Limpiar</button><br><br>
+        </div>
+      </div>
     
-  
+    
+
+      
+      <main id="root">
+        
+      </main>
+
+    
+      
+  </div>
+
+
+
     
     <script src="main.js" type="module"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

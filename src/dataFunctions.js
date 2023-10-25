@@ -1,17 +1,22 @@
 //ORDENAMIENTO
 export const sortData = (data, sortBy, sortOrder) => {
   data.sort((a, b) => {
-    if (sortOrder === "asc") {
-      //console.log("ascendente")
-      return a.name.localeCompare(b.name);
-    } else if (sortOrder === "desc") {
-      //console.log("descendente")
-      return b.name.localeCompare(a.name);
-    } else {
-      return 0;
+
+
+    if(sortOrder === "asc"){
+      console.log("ascendente")
+      return a.name.localeCompare(b.name)
+    }else if(sortOrder === "desc"){
+      console.log("descendente")
+      return b.name.localeCompare(a.name)
+    }else{
+      return 0
     }
       
-  });
+  })
+  
+  return data;
+
 };
 
 // FUNCION PARA FILTRAR LA INFORMACION POR TIPO DE DIETA
@@ -81,5 +86,4 @@ export const calculoHabitad =(data) => {
 
   
 };
-
 

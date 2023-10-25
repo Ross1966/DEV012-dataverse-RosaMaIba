@@ -34,6 +34,7 @@ filtro.addEventListener("change", (e) => {
 const filtroHabitad= document.querySelector('[name="habitad"]');
 filtroHabitad.addEventListener("change", (e) => {
   const opcionqueeligioelusuario  = e.target.value;
+
   datosFiltrados = filterData2(datosFiltrados, opcionqueeligioelusuario)
   root.innerHTML = renderItems(datosFiltrados);
 });
@@ -43,11 +44,13 @@ filtroHabitad.addEventListener("change", (e) => {
 const boton= document.querySelector('[data-testid="button-clear"]');
 boton.addEventListener("click", function(){
 
+
   ordenarPor.value = "";
   filtro.value = ""
   filtroHabitad.value= ""
   datosFiltrados = data;
   root.innerHTML = renderItems(data);
+
   calcular.innerHTML = "Dieta";
   calcularHabitad.innerHTML = "Habitad"
 });
