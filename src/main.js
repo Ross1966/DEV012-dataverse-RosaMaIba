@@ -3,8 +3,6 @@ import {calculoPeso}  from "./dataFunctions.js";
 import {calculoHabitad}  from "./dataFunctions.js";
 import { filterData } from "./dataFunctions.js";
 import { filterData2 } from "./dataFunctions.js";
-import {calculoPeso}  from "./dataFunctions.js";
-import {calculoHabitad}  from "./dataFunctions.js";
 import { renderItems } from "./view.js";
 
 
@@ -82,4 +80,18 @@ calcularHabitad.addEventListener("click", function() {
 
 
 
+// CREACION DEL FOOTER
 
+function init() {
+ 
+  const footer = document.createElement("footer");
+  const parrafo = document.createElement("p")
+  const pTexto = document.createTextNode("Autoras: Rossy Palacin & Rosa María Ibáñez");
+  footer.appendChild(parrafo);
+  parrafo.appendChild(pTexto)
+
+  document.body.appendChild(footer);
+
+}
+
+init();
