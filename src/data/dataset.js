@@ -208,7 +208,7 @@ export default [
   "facts": {
     "habitad": "Sabana Africana",
     "otrosdatos": "Varía según la especie; algunas en peligro de extinción.",
-    "dieta": "Carnivoro.",
+    "dieta": "Carnívoro",
     "añosdevida": 30,
     "pesoenKilos" : 190
   }

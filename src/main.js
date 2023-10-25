@@ -56,11 +56,13 @@ boton.addEventListener("click", function(){
 const calcular = document.querySelector('#calcular');
 
 calcular.addEventListener("click", function() {
-  //const cambio  = e.target.value;
+  
   const resultCalculo= calculoPeso(data);
-
-  calcular.innerHTML = "EL PROMEDIO DE PESO DE LOS ANIMALES CARNIVOROS ES DE: "  +  resultCalculo  + "  KILOS";
-    
+  
+  console.log(datosFiltrados)
+ 
+  calcular.innerHTML = "EL PROMEDIO DE PESO DE LOS ANIMALES CARNÍVOROS ES DE:   "  +  resultCalculo  + "  KILOS";
+ 
 });
 
 // CALCULO HABITAD
@@ -74,6 +76,22 @@ calcularHabitad.addEventListener("click", function() {
   calcularHabitad.innerHTML = "LOS ANIMALES QUE VIVEN EN LA SELVA SON  " + resultCalculoH + "%"
 
 })
+
+
+// CREACION DEL FOOTER
+
+function init() {
+ 
+  const footer = document.createElement("footer");
+  const pTexto = document.createTextNode("Autoras: Rossy Palacin & Rosa María Ibáñez");
+  footer.appendChild(pTexto);
+
+  document.body.appendChild(footer);
+
+}
+
+init();
+
 
 
 

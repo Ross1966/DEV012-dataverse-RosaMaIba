@@ -24,7 +24,7 @@ export const filterData = (data, filtrar) => {
    
   }
 
-  console.log(resultado)
+  //console.log(resultado)
   return resultado;
 };
 
@@ -64,7 +64,6 @@ export const calculoPeso= (data) => {
 // FUNCION DE CALCULO DEL PORCENTAJE DE HABITAD
 
 export const calculoHabitad =(data) => {
-  //let calculoH = []
   const totalDatos = data.map((item) => item.facts.habitad)
   //console.log(totalDatos);
   const filtroSelva = data.filter((data) => data.facts.habitad === "Selva");
@@ -80,10 +79,7 @@ export const calculoHabitad =(data) => {
   return parseFloat((conteo.length/totalDatos.length)*100).toFixed(2)
 
 
-  //const calcula = (100/filtroSabana.length)
-  //console.log(calcula)
-  //const totalHabitad = parseFloat(calcula).toFixed(2)
-  // return totalHabitad
+  
 };
 
 
