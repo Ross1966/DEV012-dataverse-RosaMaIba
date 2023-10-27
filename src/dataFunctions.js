@@ -25,24 +25,25 @@ export const filterData = (data, filtrar) => {
   if (filtrar === "") {
     return null;
   } else {
+    
     resultado = data.filter((data) => data.facts.dieta === filtrar);
-   
+    //console.log(resultado)
   }
 
-  //console.log(resultado)
+  console.log(resultado)
   return resultado;
-};
+}; 
 
 //FUNCION PARA FILTAR POR HABITAD
 
 export const filterData2 = (data, filtrar) => {
+ console.log(filtrar)
+  console.log(data)
+  
   let resultado = [];
-  if (filtrar === "") {
-    return null;
-  } else {
-    resultado = data.filter((data) => data.facts.habitad === filtrar);
-    //console.log(resultado)
-  }
+  resultado = data.filter((data) => data.facts.habitad === filtrar);
+  console.log(resultado)
+  
   return resultado;
 };
 

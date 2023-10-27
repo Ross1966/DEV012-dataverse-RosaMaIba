@@ -26,7 +26,7 @@ ordenarPor.addEventListener("change", (e) => {
 const filtro= document.querySelector('[name="dieta"]');
 filtro.addEventListener("change", (e) => {
   const opcionqueeligioelusuario  = e.target.value;
-  datosFiltrados = filterData(datosFiltrados, opcionqueeligioelusuario)
+  datosFiltrados = filterData(data, opcionqueeligioelusuario)
   root.innerHTML = renderItems(datosFiltrados);
 });
 
@@ -34,7 +34,6 @@ filtro.addEventListener("change", (e) => {
 const filtroHabitad= document.querySelector('[name="habitad"]');
 filtroHabitad.addEventListener("change", (e) => {
   const opcionqueeligioelusuario  = e.target.value;
-
   datosFiltrados = filterData2(datosFiltrados, opcionqueeligioelusuario)
   root.innerHTML = renderItems(datosFiltrados);
 });
@@ -55,6 +54,7 @@ boton.addEventListener("click", function(){
   calcularHabitad.innerHTML = "Habitad"
 });
 
+
 //CALCULOS DE PESO DE CARNIVOROS
 const calcular = document.querySelector('#calcular');
 
@@ -62,7 +62,7 @@ calcular.addEventListener("click", function() {
   
   const resultCalculo= calculoPeso(data);
   
-  console.log(datosFiltrados)
+  // console.log(datosFiltrados)
  
   calcular.innerHTML = "EL PROMEDIO DE PESO DE LOS ANIMALES CARNÍVOROS ES DE:   "  +  resultCalculo  + "  KILOS";
  
@@ -95,6 +95,4 @@ function init() {
 
 init();
 
-
-
-
+//Hola soy el nuevo commit

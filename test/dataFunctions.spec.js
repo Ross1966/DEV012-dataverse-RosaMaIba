@@ -1,18 +1,20 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
+import { filterData2} from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
-console.log(fakeData);
+//console.log(fakeData);
+const TEST_FILTRO_HABITAD = "Selva"
 
-describe('example', () => {
+describe('Animales de la Selva', () => {
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+  it('Debería devolver 4 animales de la selva', () => {
+    const habitadSelva = filterData2 (fakeData, TEST_FILTRO_HABITAD)
+    expect(filterData2(habitadSelva)).toBe(4);
   });
 });
 
-describe('anotherExample', () => {
+/*describe('anotherExample', () => {
 
   it('returns `anotherExample`', () => {
     expect(anotherExample()).toBe('OMG');
   });
-});
+});*/
