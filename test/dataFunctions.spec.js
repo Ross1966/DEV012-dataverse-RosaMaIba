@@ -8,7 +8,7 @@ describe('Animales de la Selva', () => {
 
   it('Debería devolver 4 animales de la selva', () => {
     const habitadSelva = filterData2 (fakeData, TEST_FILTRO_HABITAD)
-    expect(filterData2(habitadSelva)).toBe(4);
+    expect(habitadSelva.length).toBe(4);
   });
 });
 

@@ -1,10 +1,11 @@
 // Aquí comienza tu código y puedes retornar lo que tu necesites
 export const renderItems = (data) => {
- 
-  const  elemento =  data.map((animal) => 
-    `
-    <div class="box">
-     <li>
+  let elemento = "";
+  data.forEach((animal) => {
+    elemento += `
+    
+     <li itemscope itemtype="animal" class="box">
+     
      <p class="id"><strong>${animal.id}</strong></p>
      <dl itemscope itemtype="Animales">
      <img src="${animal.imageUrl}" alt=${animal.name} />
@@ -22,19 +23,14 @@ export const renderItems = (data) => {
      <dd itemprop =''>${animal.facts.dieta}</dd>
      </dl>
      </li>
-    </div>
+    
      
-   `
-  ).join("");
+   `;
+    //.join("");
 
+    //console.log(data)
 
-
-  //console.log(data)
-  
-  return `<ul type="none">${elemento}</ul>`;
-
-
+   
+  });
+  return `<ul class="lista">${elemento}</ul>`;
 };
-
-
-

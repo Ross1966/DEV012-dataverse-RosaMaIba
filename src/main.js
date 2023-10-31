@@ -1,8 +1,8 @@
 import {sortData} from "./dataFunctions.js";
 import {calculoPeso}  from "./dataFunctions.js";
 import {calculoHabitad}  from "./dataFunctions.js";
-import { filterData } from "./dataFunctions.js";
-import { filterData2 } from "./dataFunctions.js";
+import { filterDataByDiet } from "./dataFunctions.js";
+import { filterDataByHabit } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
 
 
@@ -11,10 +11,10 @@ import data from "./data/dataset.js";
 const root = document.querySelector("#root");
 root.innerHTML = renderItems(data);
 let datosFiltrados = data;
+let datosDietaFiltrados = datosFiltrados;
 
 //ORDENAMIENTO
 const ordenarPor = document.querySelector('[data-testid="select-sort"]');
-
 ordenarPor.addEventListener("change", (e) => {
   const opcion = e.target.value
   sortData(datosFiltrados, "name" , opcion);
@@ -26,7 +26,8 @@ ordenarPor.addEventListener("change", (e) => {
 const filtro= document.querySelector('[name="dieta"]');
 filtro.addEventListener("change", (e) => {
   const opcionqueeligioelusuario  = e.target.value;
-  datosFiltrados = filterData(data, opcionqueeligioelusuario)
+  datosFiltrados = filterDataByDiet(data, opcionqueeligioelusuario)
+  datosDietaFiltrados = datosFiltrados;
   root.innerHTML = renderItems(datosFiltrados);
 });
 
@@ -34,22 +35,19 @@ filtro.addEventListener("change", (e) => {
 const filtroHabitad= document.querySelector('[name="habitad"]');
 filtroHabitad.addEventListener("change", (e) => {
   const opcionqueeligioelusuario  = e.target.value;
-  datosFiltrados = filterData2(datosFiltrados, opcionqueeligioelusuario)
-  root.innerHTML = renderItems(datosFiltrados);
+  datosDietaFiltrados = filterDataByHabit(datosFiltrados, opcionqueeligioelusuario)
+  root.innerHTML = renderItems(datosDietaFiltrados);
 });
 
 
 //BOTON
 const boton= document.querySelector('[data-testid="button-clear"]');
 boton.addEventListener("click", function(){
-
-
-  ordenarPor.value = "";
+  ordenarPor.selectedIndex = 0;
   filtro.value = ""
   filtroHabitad.value= ""
   datosFiltrados = data;
   root.innerHTML = renderItems(data);
-
   calcular.innerHTML = "Dieta";
   calcularHabitad.innerHTML = "Habitad"
 });
@@ -57,13 +55,8 @@ boton.addEventListener("click", function(){
 
 //CALCULOS DE PESO DE CARNIVOROS
 const calcular = document.querySelector('#calcular');
-
 calcular.addEventListener("click", function() {
-  
   const resultCalculo= calculoPeso(data);
-  
-  // console.log(datosFiltrados)
- 
   calcular.innerHTML = "EL PROMEDIO DE PESO DE LOS ANIMALES CARNÍVOROS ES DE:   "  +  resultCalculo  + "  KILOS";
  
 });
@@ -71,13 +64,9 @@ calcular.addEventListener("click", function() {
 // CALCULO HABITAD
 
 const calcularHabitad = document.querySelector('#calcularHabitad');
-
 calcularHabitad.addEventListener("click", function() {
-  
   const resultCalculoH = calculoHabitad(data);
-
   calcularHabitad.innerHTML = "LOS ANIMALES QUE VIVEN EN LA SELVA SON  " + resultCalculoH + "%"
-
 })
 
 
@@ -95,4 +84,4 @@ function init() {
 
 init();
 
-//Hola soy el nuevo commit
+
