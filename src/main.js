@@ -26,7 +26,7 @@ ordenarPor.addEventListener("change", (e) => {
 const filtro= document.querySelector('[name="dieta"]');
 filtro.addEventListener("change", (e) => {
   const opcionqueeligioelusuario  = e.target.value;
-  datosFiltrados = filterData(datosFiltrados, opcionqueeligioelusuario)
+  datosFiltrados = filterData(data, opcionqueeligioelusuario)
   root.innerHTML = renderItems(datosFiltrados);
 });
 

@@ -41,7 +41,7 @@ export const filterData2 = (data, filtrar) => {
     return null;
   } else {
     resultado = data.filter((data) => data.facts.habitad === filtrar);
-    //console.log(resultado)
+    console.log(resultado)
   }
   return resultado;
 };
