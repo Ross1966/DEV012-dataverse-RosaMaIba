@@ -1,20 +1,38 @@
-import { filterData2} from '../src/dataFunctions.js';
+import { filterData, filterData2, sortData} from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
 //console.log(fakeData);
-const TEST_FILTRO_HABITAD = "Selva"
 
-describe('Animales de la Selva', () => {
+const TEST_FILTRO_DIETA = "Insectívora"
+describe('filtrarDieta', () => {
 
-  it('Debería devolver 4 animales de la selva', () => {
-    const habitadSelva = filterData2 (fakeData, TEST_FILTRO_HABITAD)
+  it('Deberia devolver 4 animales insectívoros', () => {
+    const dietaInsectivora = filterData(fakeData, TEST_FILTRO_DIETA)
+    expect(dietaInsectivora.length).toBe(4);
+  });
+});
+
+const TEST_FILTRO_HABITAD= "Selva"
+describe('filtrarHabitad', () => {
+  it('Deberia devolver 4 animales de habitad selva', () => {
+    const habitadSelva = filterData2(fakeData, TEST_FILTRO_HABITAD)
     expect(habitadSelva.length).toBe(4);
   });
 });
 
-/*describe('anotherExample', () => {
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+const TEST_ASCENDENTE = "asc"
+describe("Ascendente", ()=>{
+  it("Deberia devolver los nombres ordenados de forma ascendente",()=>{
+    const numAsc = sortData(fakeData, "name", TEST_ASCENDENTE)
+    expect(numAsc[0]).toStrictEqual(fakeData[0]);
   });
-});*/
+});
+
+const TEST_DESCENDENTE = "desc"
+describe("Descendente", ()=>{
+  it("Deberia de volver los nombres ordenados de forma Descendente",()=>{
+    const numDesc = sortData(fakeData,"name", TEST_DESCENDENTE)
+    expect(numDesc[7]).toStrictEqual(fakeData[7]);
+  });
+});
+

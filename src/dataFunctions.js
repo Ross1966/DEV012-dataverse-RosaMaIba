@@ -40,7 +40,7 @@ export const filterDataByHabit = (data, filtrar) => {
   console.log(data)
   //console.log(resultado)
   
- 
+
   return resultado;
 
   
