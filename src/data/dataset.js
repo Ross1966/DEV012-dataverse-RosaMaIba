@@ -362,7 +362,7 @@ export default [
   "facts": {
     "habitad": "Desierto",
     "otrosdatos": "Las grandes virtudes del camello incluyen la habilidad para transportar cargas pesadas –hasta 200 kilos—y su bien conocida capacidad para sobrevivir en condiciones áridas.",
-    "dieta": "Herbivoro",
+    "dieta": "Herbívoro",
     "añosdevida": 45,
     "pesoenKilos": 700
   }

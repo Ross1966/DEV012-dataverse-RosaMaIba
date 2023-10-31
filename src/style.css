@@ -3,7 +3,8 @@
 }
 body{
     background-color:rgb(168, 209, 120) ;
-}
+    }
+    
 .header{
     width: 100%;
     float: left;
@@ -38,7 +39,13 @@ body{
     padding-top: 10px;
     display: flex;
     text-align: center;
-    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
 }
 img{
     width: 100%;

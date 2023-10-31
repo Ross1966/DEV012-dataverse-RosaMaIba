@@ -17,14 +17,14 @@
         <div class="contenedor1">
           <label for="ordenar">Ordenar de:</label>
           <select name="letra" data-testid="select-sort">
-            <option value="">--Elige una Opción--</option>
+            <option value="" disabled selected>--Elige una Opción--</option>
             <option value="asc" id="asc">A - Z</option>
             <option value="desc" id="desc">Z - A</option>
           </select>
 
           <label for="select-dieta">Tipo de Dieta</label>
           <select name="dieta">
-            <option value="">--Elige una Opción--</option>
+            <option value="" disabled selected>--Elige una Opción--</option>
             <option value="Omnívora">Omnivoros</option>
             <option value="Insectívora">Insectivoros</option>
             <option value="Frugívora">Frugívoros</option>
@@ -32,9 +32,11 @@
             <option value="Herbívoro">Hervívoros</option>
           </select>
 
-          <label for="select-habitad">Habitad
+
+          <label for="select-habitad">Habitad</label> 
+
           <select name="habitad">
-            <option value="">--Elige una Opción--</option>
+            <option value="" disabled selected>--Elige una Opción--</option>
             <option value="Bosque">Bosque</option>
             <option value="Granja">Granja</option>
             <option value="Campo">Campo</option>
@@ -46,8 +48,6 @@
             <option value="Montaña">Montaña</option>
             <option value="Desierto">Desierto</option>
           </select>
-          </label>
-        
         
             <p id="calcular">Dieta</p>
 
@@ -58,13 +58,12 @@
         </div>
       </div>
     
+    
 
       
-
-      
-      <main id="root">
+      <div id="root">
         
-      </main>
+      </div>
 
     
       
@@ -74,5 +73,23 @@
 
     
     <script src="main.js" type="module"></script>
+
+
+
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

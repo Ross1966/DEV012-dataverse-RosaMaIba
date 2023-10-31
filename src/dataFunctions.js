@@ -4,10 +4,8 @@ export const sortData = (data, sortBy, sortOrder) => {
 
 
     if(sortOrder === "asc"){
-      console.log("ascendente")
       return a.name.localeCompare(b.name)
     }else if(sortOrder === "desc"){
-      console.log("descendente")
       return b.name.localeCompare(a.name)
     }else{
       return 0
@@ -20,31 +18,34 @@ export const sortData = (data, sortBy, sortOrder) => {
 };
 
 // FUNCION PARA FILTRAR LA INFORMACION POR TIPO DE DIETA
-export const filterData = (data, filtrar) => {
+export const filterDataByDiet = (data, filtrar) => {
   let resultado = [];
   if (filtrar === "") {
     return null;
-  } else {
+  } else { 
     resultado = data.filter((data) => data.facts.dieta === filtrar);
-   
+  //console.log(resultado)
   }
-
-  console.log(resultado)
-  return resultado;
-};
+  return resultado
+}; 
 
 //FUNCION PARA FILTAR POR HABITAD
 
-export const filterData2 = (data, filtrar) => {
+export const filterDataByHabit = (data, filtrar) => {
+  console.log(filtrar)
+  
+  
   let resultado = [];
-  if (filtrar === "") {
-    return null;
-  } else {
-    resultado = data.filter((data) => data.facts.habitad === filtrar);
-    console.log(resultado)
-  }
+  resultado = data.filter((data) => data.facts.habitad === filtrar);
+  console.log(data)
+  //console.log(resultado)
+  
+
   return resultado;
+
+  
 };
+
 
 // FUNCION DE CALCULO PESO CARNIVOROS
 
@@ -69,7 +70,6 @@ export const calculoPeso= (data) => {
 // FUNCION DE CALCULO DEL PORCENTAJE DE HABITAD
 
 export const calculoHabitad =(data) => {
-  //let calculoH = []
   const totalDatos = data.map((item) => item.facts.habitad)
   //console.log(totalDatos);
   const filtroSelva = data.filter((data) => data.facts.habitad === "Selva");
@@ -85,9 +85,6 @@ export const calculoHabitad =(data) => {
   return parseFloat((conteo.length/totalDatos.length)*100).toFixed(2)
 
 
-  //const calcula = (100/filtroSabana.length)
-  //console.log(calcula)
-  //const totalHabitad = parseFloat(calcula).toFixed(2)
-  // return totalHabitad
+  
 };
 

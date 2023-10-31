@@ -1,7 +1,7 @@
 import { filterData, filterData2, sortData} from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
-console.log(fakeData);
+//console.log(fakeData);
 
 const TEST_FILTRO_DIETA = "Insectívora"
 describe('filtrarDieta', () => {
@@ -14,7 +14,6 @@ describe('filtrarDieta', () => {
 
 const TEST_FILTRO_HABITAD= "Selva"
 describe('filtrarHabitad', () => {
-
   it('Deberia devolver 4 animales de habitad selva', () => {
     const habitadSelva = filterData2(fakeData, TEST_FILTRO_HABITAD)
     expect(habitadSelva.length).toBe(4);
@@ -36,3 +35,4 @@ describe("Descendente", ()=>{
     expect(numDesc[7]).toStrictEqual(fakeData[7]);
   });
 });
+
