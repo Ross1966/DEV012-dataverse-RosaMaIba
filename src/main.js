@@ -12,6 +12,9 @@ const root = document.querySelector("#root");
 root.innerHTML = renderItems(data);
 let datosFiltrados = data;
 let datosDietaFiltrados = datosFiltrados;
+const parrafo = document.querySelector("#sinDatos");
+
+
 
 //ORDENAMIENTO
 const ordenarPor = document.querySelector('[data-testid="select-sort"]');
@@ -28,6 +31,7 @@ filtro.addEventListener("change", (e) => {
   const opcionqueeligioelusuario  = e.target.value;
   datosFiltrados = filterDataByDiet(data, opcionqueeligioelusuario)
   datosDietaFiltrados = datosFiltrados;
+  parrafo.innerHTML = '';
   root.innerHTML = renderItems(datosFiltrados);
 });
 
@@ -35,9 +39,13 @@ filtro.addEventListener("change", (e) => {
 const filtroHabitad= document.querySelector('[name="habitad"]');
 filtroHabitad.addEventListener("change", (e) => {
   const opcionqueeligioelusuario  = e.target.value;
-  datosDietaFiltrados = filterDataByHabit(datosFiltrados, opcionqueeligioelusuario)
+  datosDietaFiltrados = filterDataByHabit(datosFiltrados,opcionqueeligioelusuario)
   root.innerHTML = renderItems(datosDietaFiltrados);
+ 
+  arregloVacio()
 });
+
+
 
 
 //BOTON
@@ -50,6 +58,9 @@ boton.addEventListener("click", function(){
   root.innerHTML = renderItems(data);
   calcular.innerHTML = "Dieta";
   calcularHabitad.innerHTML = "Habitad"
+  parrafo.innerHTML = "";
+  
+  
 });
 
 
@@ -74,7 +85,7 @@ calcularHabitad.addEventListener("click", function() {
 
 function init() {
  
-  const footer = document.createElement("footer");
+  const footer = document.getElementById("footer");
   const pTexto = document.createTextNode("Autoras: Rossy Palacin & Rosa María Ibáñez");
   footer.appendChild(pTexto);
 
@@ -85,3 +96,17 @@ function init() {
 init();
 
 
+// FUNCION CUANDO NO HAY CONTENIDO QUE MOSTRAR
+
+function arregloVacio() {
+  const vacio = datosDietaFiltrados;
+
+  if (vacio.length !== 0){
+    parrafo.innerHTML = " ";
+    //console.log(vacio.length)
+  }else{
+    parrafo.innerHTML = "No hay datos para mostrar";
+    return parrafo
+  }
+
+}

@@ -5,9 +5,8 @@ export const renderItems = (data) => {
     elemento += `
     
      <li itemscope itemtype="animal" class="box">
-     
+     <dl>
      <p class="id"><strong>${animal.id}</strong></p>
-     <dl itemscope itemtype="Animales">
      <img src="${animal.imageUrl}" alt=${animal.name} />
      <dt><strong>Nombre:</strong></dt>
      <dd itemprop =''>${animal.name}</dd>

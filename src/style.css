@@ -33,7 +33,7 @@ body{
 .box{
     width: 20.3%;
     height: 519px;
-    background-color: rgb(235, 231, 216);
+    background-color: rgb(243, 243, 242);
     margin: 10px 40px 20px;
     float: left;
     padding-top: 10px;
@@ -42,10 +42,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 
 
 
-
+}
+.lista{
+    justify-content: center;
+    align-items: center;
 }
 img{
     width: 100%;
@@ -83,3 +87,39 @@ footer{
     border-radius: 30px;
 
 }
+.id{
+    color: rgb(33, 100, 44);
+    margin-top: 0px;
+    padding-top: 0px ;
+    font-size: 25px;
+    font-family: 'Space Mono', monospace;
+}
+
+
+p{
+ font-size: 25px;
+ color: black;
+ font-family: 'Space Mono', monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

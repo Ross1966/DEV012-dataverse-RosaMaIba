@@ -33,16 +33,18 @@ export const filterDataByDiet = (data, filtrar) => {
 
 export const filterDataByHabit = (data, filtrar) => {
   console.log(filtrar)
-  
-  
-  let resultado = [];
-  resultado = data.filter((data) => data.facts.habitad === filtrar);
-  console.log(data)
-  //console.log(resultado)
-  
  
-  return resultado;
-
+  let resultado = [];
+  const sinDatos =  [];
+  resultado = data.filter((data) => data.facts.habitad === filtrar);
+  //console.log(resultado)
+  if (resultado.length !== 0){
+    return resultado;
+    //console.log("no hay datos")
+  }else{
+    return sinDatos
+    
+  }
   
 };
 
