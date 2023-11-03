@@ -5,22 +5,22 @@ export const renderItems = (data) => {
     elemento += `
     
      <li itemscope itemtype="animal" class="box">
-     
-     <p class="id"><strong>${animal.id}</strong></p>
-     <dl itemscope itemtype="Animales">
-     <img src="${animal.imageUrl}" alt=${animal.name} />
-     <dt><strong>Nombre:</strong></dt>
-     <dd itemprop =''>${animal.name}</dd>
-     <dt><strong>Descripción:</strong></dt>
-     <dd itemprop =''>${animal.shortDescription}</dd>
-     <dt><strong>Peso en Kilos:</strong></dt>
-     <dd itemprop =''>${animal.facts.pesoenKilos}</dd>
-     <dt><strong>Años de Vida:</strong></dt>
-     <dd itemprop =''>${animal.facts.añosdevida}</dd>
-     <dt><strong>Habitad:</strong></dt>
-     <dd itemprop =''>${animal.facts.habitad}</dd>
-     <dt><strong>Dieta:</strong></dt>
-     <dd itemprop =''>${animal.facts.dieta}</dd>
+
+     <dl>
+     <h2 class="id">${animal.id}</h2>
+     <img src="${animal.imageUrl}" alt=${animal.name}/>
+     <dt>Nombre:</dt>
+     <dd itemprop ='' class="parrafoBox">${animal.name}</dd>
+     <dt>Descripción:</dt>
+     <dd itemprop ='' class="descripcion">${animal.shortDescription}</dd>
+     <dt>Peso en Kilos:</dt>
+     <dd itemprop ='' class="parrafoBox">${animal.facts.pesoenKilos}</dd>
+     <dt>Años de Vida:</dt>
+     <dd itemprop ='' class="parrafoBox">${animal.facts.añosdevida}</dd>
+     <dt>Habitad:</dt>
+     <dd itemprop ='' class="parrafoBox">${animal.facts.habitad}</dd>
+     <dt>Dieta:</dt>
+     <dd itemprop ='' class="parrafoBox">${animal.facts.dieta}</dd>
      </dl>
      </li>
     
@@ -34,3 +34,17 @@ export const renderItems = (data) => {
   });
   return `<ul class="lista">${elemento}</ul>`;
 };
+/*
+.header{
+    width: 100%;
+    float: left;
+    height: 100px;
+    background-color: rgb(168, 209, 120);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 30px;
+
+}
+ */

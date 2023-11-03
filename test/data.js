@@ -140,4 +140,18 @@ export const data = [
       pesoenKilos: 0.4,
     },
   },
+  {
+    "id": "LEON",
+    "name": "leon",
+    "shortDescription": "Un mamífero carnívoro de gran tamaño y fuerza.",
+    "description": "El oso es un mamífero grande y poderoso que se encuentra en diversas partes del mundo. Hay varias especies de osos, cada una con sus propias características únicas y hábitats. Los osos son conocidos por su fuerza y adaptabilidad, lo que les permite sobrevivir en una variedad de entornos, desde bosques hasta tundras. Aunque son omnívoros, la dieta de los osos puede incluir peces, bayas, frutas, insectos y mamíferos pequeños. Algunas de las especies de osos más conocidas incluyen el oso pardo, el oso polar y el panda gigante.",
+    "imageUrl": "https://static.nationalgeographic.es/files/styles/image_3200/public/01-lion-populations-nationalgeographic_1777804.jpg?w=1600&h=900",
+    "facts": {
+      "habitad": "Sabana Africana",
+      "otrosdatos": "Varía según la especie; algunas en peligro de extinción.",
+      "dieta": "Carnívoro",
+      "añosdevida": 30,
+      "pesoenKilos" : 190
+    }
+  },
 ];

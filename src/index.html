@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Encode+Sans+Condensed:wght@300;700;800&family=Handlee&family=Montserrat+Alternates:ital,wght@0,400;0,800;1,700;1,800&family=Nanum+Gothic+Coding:wght@400;700&family=Neucha&family=Niramit:ital,wght@0,200;1,200;1,500;1,600;1,700&family=PT+Mono&family=Roboto+Mono:wght@200;600;700&family=Short+Stack&family=Syne:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
     <div class="contenedorPrincipal">
@@ -22,7 +26,7 @@
             <option value="desc" id="desc">Z - A</option>
           </select>
 
-          <label for="select-dieta">Tipo de Dieta</label>
+          <label for="select-dieta">Tipo de Dieta:</label>
           <select name="dieta">
             <option value="" disabled selected>--Elige una Opción--</option>
             <option value="Omnívora">Omnivoros</option>
@@ -33,7 +37,7 @@
           </select>
 
 
-          <label for="select-habitad">Habitad</label> 
+          <label for="select-habitad">Habitad:</label> 
 
           <select name="habitad">
             <option value="" disabled selected>--Elige una Opción--</option>
@@ -49,18 +53,21 @@
             <option value="Desierto">Desierto</option>
           </select>
         
-            <p id="calcular">Dieta</p>
-
-            <p id="calcularHabitad">Habitad</p>
-
+           
 
           <button class="boton" data-testid="button-clear">Limpiar</button><br><br>
+        
+          <p id="calcular"><span>Promedio de peso:</span><br>Animales carnívoros</p>
+
+          <p id="calcularHabitad"><span>Porcentaje total Habitad:</span><br>Selva</p>
+
+        
         </div>
       </div>
     
     
 
-      
+      <p id="sinDatos"></p>
       <div id="root">
         
       </div>
@@ -68,7 +75,7 @@
     
       
   </div>
-
+    <footer id="footer"></footer>
 
 
     
