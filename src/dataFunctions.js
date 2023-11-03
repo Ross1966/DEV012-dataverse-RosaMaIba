@@ -44,6 +44,7 @@ export const filterDataByHabit = (data, filtrar) => {
   }else{
     return sinDatos
     
+    
   }
   
 };

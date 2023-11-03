@@ -90,7 +90,7 @@ export default [
   "name": "Murciélago",
   "shortDescription": "Mamífero volador nocturno con alas membranosas.",
   "description": "El murciélago es un mamífero volador nocturno perteneciente al orden Chiroptera. Son los únicos mamíferos capaces de volar y se encuentran en una variedad de hábitats en todo el mundo. Los murciélagos son conocidos por sus alas membranosas, que les permiten volar con agilidad. Son animales nocturnos y se alimentan de una dieta variada que incluye insectos, frutas, néctar y, en algunos casos, sangre. Algunas especies de murciélagos son esenciales para la polinización de plantas y la dispersión de semillas.",
-  "imageUrl": "https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2015/09/15/150915105939_murcielago_624x351_thinkstock_nocredit.jpg",
+  "imageUrl": "https://www.faunia.es/content/dam/fau/images/descubre-faunia/planea-tu-visita/animales/mami%CC%81feros/murcie%CC%81lago-egipcio/Murcielago-egipcio-Animales-Faunia-main.jpg",
   "facts": {
     "habitad": "Cueva",
     "otrosdatos": "Mayormente nocturnos y sociales, algunos son solitarios.",
@@ -171,7 +171,7 @@ export default [
   }
 },
 {
-  "id": "PUERCOESPIN",
+  "id": "PUERCOESPÍN",
   "name": "Puercoespín",
   "shortDescription": "Mamífero cubierto de púas afiladas utilizado para la defensa.",
   "description": "El puercoespín es un mamífero conocido por su característica más distintiva: su espeso pelaje cubierto de púas afiladas. Se encuentran en diversas partes del mundo, incluyendo América del Norte, América del Sur, África y Asia. Los puercoespines son principalmente herbívoros y se alimentan de hojas, brotes y corteza de árboles. Utilizan sus púas como mecanismo de defensa, erizándolas cuando se sienten amenazados. A pesar de su apariencia intimidante, son animales en su mayoría solitarios y nocturnos.",

@@ -1,125 +1,155 @@
+
 *{
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Short Stack', cursive;
 }
 body{
     background-color:rgb(168, 209, 120) ;
     }
     
-.header{
-    width: 100%;
-    float: left;
-    height: 70px;
-    background-color: rgb(235, 231, 216);
-    
-    color: rgb(0, 0, 0);
-    text-align: center;
+
+h1{
+    background-color: rgb(252, 252, 252);
+    margin: 10px 200px 10px 200px;
+    box-shadow: 10px 20px 10px rgb(3, 3, 3);
     border-radius: 0px 0px 20px 20px;
     margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 20px 100px 20px 100px;
+    
 }
 
 .contenedor1{
-    width: 10%;
+    width: 13%;
     float: left;
-    height: 4950px;
-    background-color: rgb(235, 231, 216);
+    height: 5320px;
+    background-color: rgb(252, 252, 252);
     padding: 40px 50px 10px 30px;
-    margin: 10px 40px;
+    margin: 10px 30px;
+    
     color: rgb(10, 10, 10);
     text-align: center;
     border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(3, 3, 3);
+    
 }
 
 
 .box{
     width: 20.3%;
-    height: 519px;
-    background-color: rgb(243, 243, 242);
-    margin: 10px 40px 20px;
+    height: 560px;
+    
+    background-color: rgb(252, 252, 252);
+    margin: 10px 30px 20px;
     float: left;
     padding-top: 10px;
     display: flex;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     border-radius: 20px;
-
-
-
+    font-family: 'Kalam', cursive;
+    box-shadow: 10px 10px 10px rgb(3, 3, 3);
+    
 }
+
+
+
 .lista{
+    
     justify-content: center;
     align-items: center;
 }
 img{
-    width: 100%;
+    width: 90%;
     height: 170px;
+    margin: 0px;
+    border-radius: 100%;
+    border-color: black;
+    border-width: 2px;
+    border-style:dashed;
+
+    
 }
 dd{
     margin-left: 0px;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 0px;
 }
 
 select{
     background-color: rgb(168, 209, 120);
     padding: 5px;
-    margin: 10px 0px;
+    margin: 10px 0px 10px 0px;
     border-radius: 15px;
+    text-align: center;
+}
+option{
+    font-size: 15px;
+    text-align: center;
+    
 }
 
 .boton{
     padding: 15px;
     background-color: black;
-    color:aliceblue;
+    color:rgb(252, 252, 252);
     border-radius: 50px;
-    border-color: aliceblue;
+    border-color: rgb(252, 252, 252);
 }
 
 footer{
     background-color: black;
-    color: aliceblue;
+    color: rgb(252, 252, 252);
     position: absolute;
     width: 100%;
     height: 40px;
-    margin-top: 5200px;
-    padding: 2px 0px 10px 0px;
+    margin-top: 5600px;
+    padding: 20px 0px 0px 0px;
     text-align: center;
     border-radius: 30px;
 
 }
 .id{
-    color: rgb(33, 100, 44);
+    color: rgb(252, 252, 252);
     margin-top: 0px;
     padding-top: 0px ;
     font-size: 25px;
-    font-family: 'Space Mono', monospace;
+    background-image: url(https://png.pngtree.com/background/20230520/original/pngtree-green-leaves-have-dark-backgrounds-picture-image_2672872.jpg);
+    border-radius: 100%;
+    margin: 0px 50px 10px 50px;
+    padding: 10px 8px 10px 8px;
+    text-shadow: 4px 5px 2px black;
+    box-shadow: 5px 5px 3px black;
+    display: flex;
+    justify-content: center;
 }
 
-
+dt{
+    
+    margin: 0px;
+    font-size: 15px;
+    text-shadow: 1px 0px 0px black;
+}
 p{
- font-size: 25px;
- color: black;
- font-family: 'Space Mono', monospace;
+    margin: 15px;
+    background-color: rgba(122, 204, 122, 0.438);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+span{
+    text-shadow: 1px 0px 0px black;
+}
+.descripcion{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.parrafoBox{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+label{
+    text-shadow: 1px 0px 0px black;
+}
 
 
 

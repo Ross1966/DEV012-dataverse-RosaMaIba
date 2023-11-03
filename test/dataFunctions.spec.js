@@ -1,4 +1,4 @@
-import { filterDataByDiet, filterDataByHabit, sortData} from '../src/dataFunctions.js';
+import { filterDataByDiet, filterDataByHabit, sortData, calculoPeso, calculoHabitad} from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
 //console.log(fakeData);
@@ -35,9 +35,19 @@ describe("Descendente", ()=>{
     expect(numDesc[7]).toStrictEqual(fakeData[7]);
   });
 });
-/*describe('anotherExample', () => {
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+const TEST_CALCULO_PESO= "Carnívoro"
+describe("PesoCarnivoros", () =>{
+  it("Debería devolver el promedio de pesos en kilos para la dieta " + TEST_CALCULO_PESO, () => {
+    const promedio = calculoPeso(fakeData, TEST_CALCULO_PESO)
+    expect(promedio).toBe("190.00");
   });
-});*/
+});
+
+const TEST_CALCULO_HABITAD = "Selva"
+describe("CalculoHabitadSelva",()=>{
+  it("Deberia devolver el porcentaje total de animales de la selva" + TEST_CALCULO_HABITAD, () =>{
+    const porcentajeTotal = calculoHabitad(fakeData, TEST_CALCULO_HABITAD)
+    expect(porcentajeTotal).toBe("44.44")
+  })
+})
