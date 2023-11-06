@@ -368,5 +368,44 @@ export default [
   }
 },
 
+/////gato
+{
+  "id": "GATO",
+  "name": "Gato",
+  "shortDescription": "Felino doméstico conocido por su independencia y cariño.",
+  "description": "El gato (Felis catus) es un felino doméstico que ha sido un compañero de los seres humanos durante milenios. Conocido por su independencia y cariño, los gatos son animales de compañía populares en todo el mundo. Vienen en una variedad de razas, cada una con su propia personalidad y apariencia. Los gatos son conocidos por su agilidad, elegancia y habilidades de caza. Son mascotas cariñosas que a menudo forman fuertes vínculos con sus dueños.",
+  "imageUrl": "https://www.petz.com.br/blog//wp-content/uploads/2021/11/enxoval-para-gato-Copia.jpg",
+  "facts": {
+    "habitad": "Hogar",
+    "otrosdatos": "Mascotas y compañía",
+    "dieta": "Carnívoro",
+    "añosdevida": 15,
+    "pesoenKilos": 5,
+  }
+},
 
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

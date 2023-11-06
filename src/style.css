@@ -5,8 +5,10 @@
 body{
     background-color:rgb(168, 209, 120) ;
     }
-    
-
+header{
+    background-color: #ffffff;
+}
+/*
 h1{
     background-color: rgb(252, 252, 252);
     margin: 10px 200px 10px 200px;
@@ -19,8 +21,20 @@ h1{
     padding: 20px 100px 20px 100px;
     
 }
+*/
+h1{
+    background-color: rgb(252, 252, 252);
+    margin: 10px 200px 10px 500px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    padding: 10px 100px 10px 100px;
+    box-shadow: 10px 20px 10px rgb(3, 3, 3);
+    
+}
 
-.contenedor1{
+/*.contenedor1{
     width: 13%;
     float: left;
     height: 5320px;
@@ -35,31 +49,60 @@ h1{
     
 }
 
-
 .box{
     width: 20.3%;
     height: 560px;
-    
     background-color: rgb(252, 252, 252);
     margin: 10px 30px 20px;
     float: left;
     padding-top: 10px;
     display: flex;
     text-align: center;
-    
     border-radius: 20px;
     font-family: 'Kalam', cursive;
     box-shadow: 10px 10px 10px rgb(3, 3, 3);
+}
+*/
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    padding: 40px 50px 10px 30px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 10px 10px 10px rgb(3, 3, 3);
+    margin-top: 40px;
+    height: 561px;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-top: 50px;
     
 }
+.box{
+    flex-grow: 1;
+    width: 250px;
+    height: 600px;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(3, 3, 3)
 
-
-
+}
+/*
 .lista{
     
     justify-content: center;
     align-items: center;
 }
+*/
 img{
     width: 90%;
     height: 170px;
@@ -103,7 +146,7 @@ footer{
     position: absolute;
     width: 100%;
     height: 40px;
-    margin-top: 5600px;
+    margin-top: 50px;
     padding: 20px 0px 0px 0px;
     text-align: center;
     border-radius: 30px;
@@ -130,7 +173,11 @@ dt{
     font-size: 15px;
     text-shadow: 1px 0px 0px black;
 }
-p{
+#calcular{
+    margin: 15px;
+    background-color: rgba(122, 204, 122, 0.438);
+}
+#calcularHabitad{
     margin: 15px;
     background-color: rgba(122, 204, 122, 0.438);
 }
@@ -150,6 +197,95 @@ span{
 label{
     text-shadow: 1px 0px 0px black;
 }
+
+#sinDatos{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.abrir-menu,
+.cerrar-menu{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: blueviolet;
+    }
+    /*
+    .abrir-menu{
+        display: block;
+    }
+    .contenedor1{
+        display: none;
+    }
+    */
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+
+    }
+
+    .abrir-menu {
+        color: #8ffc00;
+        font-size: 50px;
+    }
+
+    .cerrar-menu {
+        color: #f80909;
+        font-size: 50px;
+    }
+
+
+    .contenedor1 {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 0px;
+        position: absolute;
+        top:0;
+        left: 0;
+        
+        background-color: #ffffff;
+        padding: 50px;
+        box-shadow: 0 0 0 100vmax rgba(165, 138, 138, 0.5);
+        width: 30%;
+        height: 700px;
+        text-align: center;
+        border-radius: 0px 30px 30px 0px;
+        
+    }
+    .contenedor1.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
