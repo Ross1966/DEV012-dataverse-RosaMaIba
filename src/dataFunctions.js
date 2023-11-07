@@ -23,7 +23,7 @@ export const filterDataByDiet = (data, filtrar) => {
   if (filtrar === "") {
     return null;
   } else { 
-    resultado = data.filter((data) => data.facts.dieta === filtrar);
+    resultado = data.filter((data) => data.facts.tipoDieta === filtrar);
   //console.log(resultado)
   }
   return resultado
@@ -34,7 +34,7 @@ export const filterDataByDiet = (data, filtrar) => {
 export const filterDataByHabit = (data, filtrar) => {
   let resultado = [];
   const sinDatos =  [];
-  resultado = data.filter((data) => data.facts.habitad === filtrar);
+  resultado = data.filter((data) => data.facts.tipoHabitad === filtrar);
   if (resultado.length !== 0){
     return resultado;
   }else{
@@ -50,9 +50,9 @@ export const filterDataByHabit = (data, filtrar) => {
 
 export const calculoPeso= (data) => {
  
-  const primero = data.filter((data) => data.facts.dieta === "Carnívoro");
+  const primero = data.filter((data) => data.facts.tipoDieta === "Carnívoro");
   const calc = primero
-    .map((item) => item.facts.pesoenKilos)
+    .map((item) => item.facts.pesoEnKilos)
     .reduce(
       (accumulator, currentValue) =>
         accumulator + currentValue / primero.length,
@@ -67,8 +67,8 @@ export const calculoPeso= (data) => {
 // FUNCION DE CALCULO DEL PORCENTAJE DE HABITAD
 
 export const calculoHabitad =(data) => {
-  const totalDatos = data.map((item) => item.facts.habitad)
-  const filtroSelva = data.filter((data) => data.facts.habitad === "Selva");
+  const totalDatos = data.map((item) => item.facts.tipoHabitad)
+  const filtroSelva = data.filter((data) => data.facts.tipoHabitad === "Selva");
   let conteo = [];
 
   for(let i = 0; i < filtroSelva.length; i++) {
