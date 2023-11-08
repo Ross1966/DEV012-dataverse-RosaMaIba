@@ -42,6 +42,8 @@ filtroHabitad.addEventListener("change", (e) => {
 });
 
 
+
+
 //BOTON
 const boton= document.querySelector('[data-testid="button-clear"]');
 boton.addEventListener("click", function(){
@@ -87,7 +89,6 @@ function arregloVacio() {
   const vacio = datosDietaFiltrados;
   if (vacio.length !== 0){
     parrafo.innerHTML = " ";
-    //console.log(vacio.length)
   }else{
     parrafo.innerHTML = "No hay datos para mostrar";
     return parrafo

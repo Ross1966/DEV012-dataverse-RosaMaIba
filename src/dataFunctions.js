@@ -23,7 +23,7 @@ export const filterDataByDiet = (data, filtrar) => {
   if (filtrar === "") {
     return null;
   } else { 
-    resultado = data.filter((data) => data.facts.dieta === filtrar);
+    resultado = data.filter((data) => data.facts.tipoDieta === filtrar);
   //console.log(resultado)
   }
   return resultado
@@ -32,15 +32,11 @@ export const filterDataByDiet = (data, filtrar) => {
 //FUNCION PARA FILTAR POR HABITAD
 
 export const filterDataByHabit = (data, filtrar) => {
-  console.log(filtrar)
- 
   let resultado = [];
   const sinDatos =  [];
-  resultado = data.filter((data) => data.facts.habitad === filtrar);
-  //console.log(resultado)
+  resultado = data.filter((data) => data.facts.tipoHabitad === filtrar);
   if (resultado.length !== 0){
     return resultado;
-    //console.log("no hay datos")
   }else{
     return sinDatos
     
@@ -54,18 +50,16 @@ export const filterDataByHabit = (data, filtrar) => {
 
 export const calculoPeso= (data) => {
  
-  const primero = data.filter((data) => data.facts.dieta === "Carnívoro");
-  // console.log(primero)
+  const primero = data.filter((data) => data.facts.tipoDieta === "Carnívoro");
   const calc = primero
-    .map((item) => item.facts.pesoenKilos)
+    .map((item) => item.facts.pesoEnKilos)
     .reduce(
       (accumulator, currentValue) =>
         accumulator + currentValue / primero.length,
       0
     );
   const promPesoKilos = parseFloat(calc).toFixed(2);
-  //console.log(promPesoKilos)
-
+ 
   return promPesoKilos
 };
 
@@ -73,18 +67,14 @@ export const calculoPeso= (data) => {
 // FUNCION DE CALCULO DEL PORCENTAJE DE HABITAD
 
 export const calculoHabitad =(data) => {
-  const totalDatos = data.map((item) => item.facts.habitad)
-  //console.log(totalDatos);
-  const filtroSelva = data.filter((data) => data.facts.habitad === "Selva");
-  //console.log(filtroSabana)
+  const totalDatos = data.map((item) => item.facts.tipoHabitad)
+  const filtroSelva = data.filter((data) => data.facts.tipoHabitad === "Selva");
   let conteo = [];
 
   for(let i = 0; i < filtroSelva.length; i++) {
     conteo += 1;
   }
-
-  //console.log(conteo.length)
-
+  
   return parseFloat((conteo.length/totalDatos.length)*100).toFixed(2)
 
 
