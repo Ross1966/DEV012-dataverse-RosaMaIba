@@ -5,8 +5,18 @@
 body{
     background-color:rgb(168, 209, 120) ;
     }
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 102, 10);
     
-
+    top: -20px;
+    padding-right: 180px;
+    
+    
+    
+}
+/*
 h1{
     background-color: rgb(252, 252, 252);
     margin: 10px 200px 10px 200px;
@@ -19,11 +29,26 @@ h1{
     padding: 20px 100px 20px 100px;
     
 }
+*/
+h1{
+    background-color: rgb(252, 252, 252);
+    margin: 10px 200px 10px 620px;
+    border-radius: 0px 0px 20px 20px;
+    flex-grow: 1;
+    justify-content: center;
+    font-size: 60px;
+    padding: 30px 120px 10px 130px;
+    box-shadow: 10px 10px 10px rgb(3, 3, 3);
+    
+    position: fixed;
+    top: -20px;
+    */
+}
 
-.contenedor1{
+/*.contenedor1{
     width: 13%;
     float: left;
-    height: 5320px;
+    height: 5320px
     background-color: rgb(252, 252, 252);
     padding: 40px 50px 10px 30px;
     margin: 10px 30px;
@@ -35,31 +60,64 @@ h1{
     
 }
 
-
 .box{
     width: 20.3%;
     height: 560px;
-    
     background-color: rgb(252, 252, 252);
     margin: 10px 30px 20px;
     float: left;
     padding-top: 10px;
     display: flex;
     text-align: center;
-    
     border-radius: 20px;
     font-family: 'Kalam', cursive;
     box-shadow: 10px 10px 10px rgb(3, 3, 3);
+}
+*/
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px 50px 10px 30px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 10px 10px 10px rgb(3, 3, 3);
+    
+    height: 400px;
+    position: fixed;
+    margin-top: 170px;
     
 }
-
-
-
+.lista{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 70px;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: 300px;
+}
+.box{
+    flex-grow: 1;
+    
+    height: 600px;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(3, 3, 3);
+    max-width: 280px;
+    min-width: 280px;
+}
+/*
 .lista{
     
     justify-content: center;
     align-items: center;
 }
+*/
 img{
     width: 90%;
     height: 170px;
@@ -95,18 +153,24 @@ option{
     color:rgb(252, 252, 252);
     border-radius: 50px;
     border-color: rgb(252, 252, 252);
+    
 }
 
 footer{
     background-color: black;
     color: rgb(252, 252, 252);
-    position: absolute;
-    width: 100%;
+    
+    max-width: 70%;
     height: 40px;
-    margin-top: 5600px;
+    margin-top: 50px;
     padding: 20px 0px 0px 0px;
-    text-align: center;
+    justify-content: center;
     border-radius: 30px;
+    margin-left: 370px;
+    display: flex;
+    flex-grow: 1;
+    
+    
 
 }
 .id{
@@ -130,8 +194,13 @@ dt{
     font-size: 15px;
     text-shadow: 1px 0px 0px black;
 }
-p{
-    margin: 15px;
+
+#calcular{
+    margin-top: -20px;
+    background-color: rgba(122, 204, 122, 0.438);
+}
+#calcularHabitad{
+    margin-top: -10px;
     background-color: rgba(122, 204, 122, 0.438);
 }
 span{
@@ -149,7 +218,364 @@ span{
 }
 label{
     text-shadow: 1px 0px 0px black;
+    margin-bottom: -10px;
+}
+
+#sinDatos{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 170px;
+    right: 100px;
+    
+
+}
+
+.abrir-menu,
+.cerrar-menu{
+    display: none;
 }
 
 
+@media (max-width: 415px){
+    body{
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210609/pngtree-jungle-cartoon-cute-animal-background-image_726818.jpg);
+        background-repeat:initial;
+    }
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        
+        background-color: transparent;
+        cursor: pointer;
+        
 
+    }
+
+    .abrir-menu {
+        color: #92ee1a9d;
+        font-size: 30px;
+        position: fixed;
+        margin-top: 20px;
+        
+    }
+
+    .cerrar-menu {
+        color: #f80909;
+        font-size: 50px;
+    }
+
+
+    .contenedor1 {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 0px;
+        position: absolute;
+        top:0;
+        left: 0;
+        
+        background-color: #ffffff;
+        padding: 50px;
+        box-shadow: 0 0 0 100vmax rgba(165, 138, 138, 0.5);
+        width: 35%;
+        height: 500px;
+        text-align: center;
+        border-radius: 0px 30px 30px 0px;
+        position: fixed;
+        margin-top: 15px;
+    }
+    .contenedor1.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    h1{
+        background-color:  rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        margin: 0px -180px 0px 0px;
+        border-radius: 0px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        padding: 45px 100px 10px 100px;
+        box-shadow: 0px 0px 0px rgb(3, 3, 3);
+        text-shadow: 4px 1px 0px rgb(78, 78, 78);
+    }
+    
+
+    .box{
+        flex-grow: 1;
+        
+        height: 580px;
+        background-color: rgb(252, 252, 252);
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px rgb(3, 3, 3);
+        max-width: 280px;
+        min-width: 280px;
+        margin-left: -300px;
+        margin-top: -100px;
+        border-style: solid;
+        border-color: black;
+    }
+    .lista{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: 180px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-left: 290px;
+    }
+    footer{
+        margin: 50px;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px 50px 3px 50px;
+        box-shadow: 0px 10px 10px rgb(3, 3, 3);
+    }
+    #sinDatos{
+       
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 375px){
+    body{
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210609/pngtree-jungle-cartoon-cute-animal-background-image_726818.jpg);
+        background-repeat:initial;
+    }
+    /*
+    .abrir-menu{
+        display: block;
+    }
+    .contenedor1{
+        display: none;
+    }
+    */
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        
+        background-color: transparent;
+        cursor: pointer;
+        
+
+    }
+
+    .abrir-menu {
+        color: #92ee1a9d;
+        font-size: 30px;
+        position: fixed;
+        margin-top: 20px;
+        
+    }
+
+    .cerrar-menu {
+        color: #f80909;
+        font-size: 50px;
+    }
+
+
+    .contenedor1 {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 0px;
+        position: absolute;
+        top:0;
+        left: 0;
+        
+        background-color: #ffffff;
+        padding: 50px;
+        box-shadow: 0 0 0 100vmax rgba(165, 138, 138, 0.5);
+        width: 35%;
+        height: 500px;
+        text-align: center;
+        border-radius: 0px 30px 30px 0px;
+        position: fixed;
+        margin-top: 15px;
+    }
+    .contenedor1.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    h1{
+        background-color:  rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        margin: 0px -180px 0px 0px;
+        border-radius: 0px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        padding: 45px 80px 10px 80px;
+        box-shadow: 0px 0px 0px rgb(3, 3, 3);
+        text-shadow: 4px 1px 0px rgb(78, 78, 78);
+    }
+    
+
+    .box{
+        flex-grow: 1;
+        
+        height: 600px;
+        background-color: rgb(252, 252, 252);
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px rgb(3, 3, 3);
+        max-width: 280px;
+        min-width: 280px;
+        margin-left: -300px;
+        margin-top: -100px;
+        border-style: solid;
+        border-color: black;
+    }
+    .lista{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: 180px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-left: 290px;
+    }
+    footer{
+        margin: 50px;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px 50px 3px 50px;
+        box-shadow: 0px 10px 10px rgb(3, 3, 3);
+    }
+    #sinDatos{
+       
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 360px){
+    body{
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210609/pngtree-jungle-cartoon-cute-animal-background-image_726818.jpg);
+        background-repeat:initial;
+    }
+    /*
+    .abrir-menu{
+        display: block;
+    }
+    .contenedor1{
+        display: none;
+    }
+    */
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        
+        background-color: transparent;
+        cursor: pointer;
+        
+
+    }
+
+    .abrir-menu {
+        color: #92ee1a9d;
+        font-size: 30px;
+        position: fixed;
+        margin-top: 20px;
+        
+    }
+
+    .cerrar-menu {
+        color: #f80909;
+        font-size: 50px;
+    }
+
+
+    .contenedor1 {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 0px;
+        position: absolute;
+        top:0;
+        left: 0;
+        
+        background-color: #ffffff;
+        padding: 50px;
+        box-shadow: 0 0 0 100vmax rgba(165, 138, 138, 0.5);
+        width: 35%;
+        height: 500px;
+        text-align: center;
+        border-radius: 0px 30px 30px 0px;
+        position: fixed;
+        margin-top: 15px;
+    }
+    .contenedor1.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    h1{
+        background-color:  rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        margin: 0px -180px 0px 0px;
+        border-radius: 0px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        padding: 45px 40px 10px 40px;
+        box-shadow: 0px 0px 0px rgb(3, 3, 3);
+        text-shadow: 4px 1px 0px rgb(78, 78, 78);
+    }
+    
+
+    .box{
+        flex-grow: 1;
+        
+        height: 600px;
+        background-color: rgb(252, 252, 252);
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px rgb(3, 3, 3);
+        max-width: 280px;
+        min-width: 280px;
+        margin-left: -300px;
+        margin-top: -100px;
+        border-style: solid;
+        border-color: black;
+    }
+    .lista{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: 180px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-left: 290px;
+    }
+    footer{
+        margin: 50px;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px 50px 3px 50px;
+        box-shadow: 0px 10px 10px rgb(3, 3, 3);
+    }
+    #sinDatos{
+       
+        text-align: center;
+        font-size: 25px;
+    }
+}
