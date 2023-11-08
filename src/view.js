@@ -16,7 +16,7 @@ export const renderItems = (data) => {
      <dt>Peso en Kilos:</dt>
      <dd itemprop ='' class="parrafoBox">${animal.facts.pesoEnKilos}</dd>
      <dt>Años de Vida:</dt>
-     <dd itemprop ='' class="parrafoBox">${animal.facts.añosDeVida}</dd>
+     <dd itemprop ='' class="parrafoBox">${animal.facts.anosDeVida}</dd>
      <dt>Habitad:</dt>
      <dd itemprop ='' class="parrafoBox">${animal.facts.tipoHabitad}</dd>
      <dt>Dieta:</dt>
