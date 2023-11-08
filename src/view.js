@@ -14,13 +14,13 @@ export const renderItems = (data) => {
      <dt>Descripción:</dt>
      <dd itemprop ='' class="descripcion">${animal.shortDescription}</dd>
      <dt>Peso en Kilos:</dt>
-     <dd itemprop ='' class="parrafoBox">${animal.facts.pesoenKilos}</dd>
+     <dd itemprop ='' class="parrafoBox">${animal.facts.pesoEnKilos}</dd>
      <dt>Años de Vida:</dt>
-     <dd itemprop ='' class="parrafoBox">${animal.facts.añosdevida}</dd>
+     <dd itemprop ='' class="parrafoBox">${animal.facts.añosDeVida}</dd>
      <dt>Habitad:</dt>
-     <dd itemprop ='' class="parrafoBox">${animal.facts.habitad}</dd>
+     <dd itemprop ='' class="parrafoBox">${animal.facts.tipoHabitad}</dd>
      <dt>Dieta:</dt>
-     <dd itemprop ='' class="parrafoBox">${animal.facts.dieta}</dd>
+     <dd itemprop ='' class="parrafoBox">${animal.facts.tipoDieta}</dd>
      </dl>
      </li>
     

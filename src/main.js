@@ -42,6 +42,8 @@ filtroHabitad.addEventListener("change", (e) => {
 });
 
 
+
+
 //BOTON
 const boton= document.querySelector('[data-testid="button-clear"]');
 boton.addEventListener("click", function(){
@@ -86,10 +88,19 @@ init();
 function arregloVacio() {
   const vacio = datosDietaFiltrados;
   if (vacio.length !== 0){
-    parrafo.innerHTML = " ";
-    //console.log(vacio.length)
-  }else{
+    parrafo.innerHTML = " "; }else{
     parrafo.innerHTML = "No hay datos para mostrar";
     return parrafo
   }
 }
+
+//MENU HAMBURGUESA
+const contenedor1 = document.querySelector("#contenedor1");
+const cerrar = document.querySelector("#cerrar-menu");
+const abrir = document.querySelector("#abrir-menu");
+abrir.addEventListener("click", () =>{
+  contenedor1.classList.add("visible")
+})
+cerrar.addEventListener("click", ()=>{
+  contenedor1.classList.remove("visible")
+})
