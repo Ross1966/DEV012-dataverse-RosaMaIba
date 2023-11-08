@@ -8,9 +8,8 @@ export default [
     "imageUrl": "https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/el-adn-de-fosiles-de-osos-aporta-datos-geneticos-esenciales-para-la-conservacion-de-la-especie/7594-2-esl-MX/El-ADN-de-fosiles-de-osos-aporta-datos-geneticos-esenciales-para-la-conservacion-de-la-especie.jpg",
     "facts": {
       "tipoHabitad": "Bosque",
-      "otrosDatos": "Varía según la especie; algunas en peligro de extinción.",
       "tipoDieta": "Omnívora",
-      "añosDeVida": 30,
+      "anosDeVida": 30,
       "pesoEnKilos": 600,
     }
   },
@@ -22,9 +21,8 @@ export default [
     "imageUrl": "https://img2.rtve.es/i/?w=1600&i=1465204528174.jpg",
     "facts": {
       "tipoHabitad": "Granja",
-      "otrosDatos": "Producción de carne y productos relacionados",
       "tipoDieta": "Omnívora",
-      "añosDeVida": 20,
+      "anosDeVida": 20,
       "pesoEnKilos":400,
     }
   },
@@ -36,9 +34,8 @@ export default [
     "imageUrl": "https://images.hola.com/imagenes/mascotas/20220811215146/mapaches-curiosidades-dn/1-124-915/mapaches-curiosidades-mascota-m.jpg?tx=w_680",
     "facts": {
       "tipoHabitad": "Bosque",
-      "otrosDatos": "Mayormente nocturnos y solitarios, pero pueden ser sociales en algunas circunstancias.",
       "tipoDieta": "Omnívora",
-      "añosDeVida": 3,
+      "anosDeVida": 3,
       "pesoEnKilos": 9,
     }
   },
@@ -50,9 +47,8 @@ export default [
     "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2019/05/09/5fa5334e4f8da.jpeg",
     "facts": {
       "tipoHabitad": "Campo",
-      "otrosDatos": "Mayormente nocturnos y sociales, pueden vivir en colonias.",
       "tipoDieta": "Omnívora",
-      "añosDeVida": 3,
+      "anosDeVida": 3,
       "pesoEnKilos": 0.03,
     }
   },
@@ -64,9 +60,8 @@ export default [
     "imageUrl": "https://okdiario.com/img/2023/06/22/gallina.jpg",
     "facts": {
       "tipoHabitad": "Granja",
-      "otrosDatos": "Producción de huevos y carne.",
       "tipoDieta": "Omnívora",
-      "añosDeVida": 10,
+      "anosDeVida": 10,
       "pesoEnKilos": 3,
     }
   },
@@ -78,9 +73,7 @@ export default [
     "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1422023439-64f1eaf518ace.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*",
     "facts": {
       "tipoHabitad": "Hogar",
-      "otrosDatos": "Mascotas, trabajo, compañía y servicio.",
-      "tipoDieta": "Omnívora",
-      "añosDeVida": 15,
+      "anosDeVida": 15,
       "pesoEnKilos": 90,
     }
   },
@@ -93,9 +86,8 @@ export default [
   "imageUrl": "https://www.faunia.es/content/dam/fau/images/descubre-faunia/planea-tu-visita/animales/mami%CC%81feros/murcie%CC%81lago-egipcio/Murcielago-egipcio-Animales-Faunia-main.jpg",
   "facts": {
     "tipoHabitad": "Cueva",
-    "otrosDatos": "Mayormente nocturnos y sociales, algunos son solitarios.",
     "tipoDieta": "Insectívora",
-    "añosDeVida": 20,
+    "anosDeVida": 20,
     "pesoEnKilos": 0.2,
     }
   },
@@ -107,9 +99,8 @@ export default [
   "imageUrl": "https://www.nationalgeographic.com.es/medio/2023/06/21/camaleon_00000000_3f5dd7c4_230621123511_800x800.jpg",
   "facts": {
     "tipoHabitad": "Selva",
-    "otrosDatos": "Mayormente solitarios y lentos en movimiento.",
     "tipoDieta": "Insectívora",
-    "añosDeVida": 5,
+    "anosDeVida": 5,
     "pesoEnKilos": 0.2,
   }
 },
@@ -117,27 +108,25 @@ export default [
   "id": "gecko",
   "name": "Gecko",
   "shortDescription": "Pequeño lagarto conocido por sus patas adhesivas y vocalizaciones únicas.",
-  "description": "El gecko es un pequeño lagarto que se encuentra en diversas regiones del mundo, especialmente en climas cálidos y tropicales. Son conocidos por sus patas adhesivas que les permiten trepar por superficies verticales y techos. Los geckos son animales nocturnos y se alimentan principalmente de insectos. Una característica distintiva de los geckos es su capacidad para producir vocalizaciones únicas, que varían según la especie y que a menudo son utilizadas para la comunicación y el cortejo.",
+  "description": "El gecko es un pequeño lagarto que se encuentra en diversas regiones del mundo, especialmente en climas cálidos y tropicales. Son conocidos por sus patas adhesivas que les permiten trepar por superficies verticales y techos. Los geckos son animales nocturnos y se alimentan principalmente de insectos. Una característica distintiva de los geckos es su capacidad para producir vocalizaciones únicas, que varían según la especie y que a menudo son utilizadas para la comunicación y el cortejo, son animales muy solitarios.",
   "imageUrl": "https://www.zillarules.com/-/media/project/oneweb/zilla/images/pets/caresheets/leopardgecko.png?h=500&iar=0&w=500&hash=F0F077B20284DFDDCC2B4B6E6E078AC7",
   "facts": {
     "tipoHabitad": "Selva",
-    "otrosDatos": "Mayormente nocturnos y solitarios, aunque algunos son sociales.",
     "tipoDieta": "Insectívora",
-    "añosDeVida": 10,
+    "anosDeVida": 10,
     "pesoEnKilos": 0.05,
   }
 },
 {
   "id": "serpiente-de-jardin",
-  "name": "Serpiente de Jardín",
+  "name": "Serpiente de Jardin",
   "shortDescription": "Serpiente no venenosa común en áreas urbanas y jardines.",
-  "description": "La serpiente de jardín es una especie de reptil que se encuentra comúnmente en los hogares y jardines. Posee un cuerpo largo y delgado, cubierto de escamas brillantes y de colores variados, que van desde el verde oscuro hasta el marrón claro. Su cabeza es pequeña y se distingue por sus grandes ojos y su lengua bífida, que utiliza para percibir el entorno. Esta serpiente es no venenosa y se alimenta principalmente de pequeños roedores y aves.",
+  "description": "La serpiente de jardín es una especie de reptil que se encuentra comúnmente en los hogares y jardines. Posee un cuerpo largo y delgado, cubierto de escamas brillantes y de colores variados, que van desde el verde oscuro hasta el marrón claro. Su cabeza es pequeña y se distingue por sus grandes ojos y su lengua bífida, que utiliza para percibir el entorno. Esta serpiente es no venenosa y se alimenta principalmente de pequeños roedores y aves que se llegan a encontrar.",
   "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxcSCNjO0yHOzHlP5ram-2_f5co3ndnRAPrU7STFfw0qfQoHx98ItJjVOr4qGXq_L1vJk&usqp=CAU",
   "facts": {
     "tipoHabitad": "Jardín",
-    "otrosDatos": "Mayormente nocturnas y tímidas, prefieren evitar el contacto humano.",
     "tipoDieta": "Insectívora",
-    "añosDeVida": 6,
+    "anosDeVida": 6,
     "pesoEnKilos": 0.5,
   }
 },
@@ -150,9 +139,8 @@ export default [
   "imageUrl": "https://static.nationalgeographicla.com/files/styles/image_3200/public/01-sloth-energy-nationalgeographic_1046424.jpg?w=1600&h=900",
   "facts": {
     "tipoHabitad": "Selva",
-    "otrosDatos": "Mayormente solitarios y arbóreos, pasan la mayoría de su vida en los árboles.",
     "tipoDieta": "Frugívora",
-    "añosDeVida": 30,
+    "anosDeVida": 30,
     "pesoEnKilos": 8,
   }
 },
@@ -164,9 +152,8 @@ export default [
   "imageUrl": "https://media.glamour.mx/photos/646fb65a423a319abe4f4901/16:9/w_2560%2Cc_limit/colibries.jpg",
   "facts": {
     "tipoHabitad": "Bosque",
-    "otrosDatos": "Mayormente diurnos y solitarios, con fuertes territorios.",
     "tipoDieta": "Frugívora",
-    "añosDeVida": 5,
+    "anosDeVida": 5,
     "pesoEnKilos": 0.01,
   }
 },
@@ -179,9 +166,8 @@ export default [
   "imageUrl": "https://okdiario.com/img/2023/04/09/nature-g5c1ad479b_1920111.jpg",
   "facts": {
     "tipoHabitad": "Bosque",
-    "otrosDatos": "Mayormente solitarios y nocturnos.",
     "tipoDieta": "Frugívora",
-    "añosDeVida": 7,
+    "anosDeVida": 7,
     "pesoEnKilos": 15,
   }
 },
@@ -189,13 +175,12 @@ export default [
   "id": "loro",
   "name": "Loro",
   "shortDescription": "Ave inteligente y sociable conocida por su capacidad de imitar sonidos y hablar.",
-  "description": "El loro es un ave exótica y colorida, conocida por su distintivo plumaje brillante y su habilidad para hablar y imitar sonidos. Su tamaño varía dependiendo de la especie, pero generalmente son de tamaño mediano, con una longitud de entre 30 y 40 centímetros. Su cuerpo es robusto y compacto, con patas fuertes y un pico robusto y curvado. Los loros son sociables por naturaleza y se encuentran en hábitats tropicales y subtropicales alrededor del mundo. Son animales inteligentes y muy curiosos, capaces de aprender trucos y comandos, lo que los convierte en mascotas populares. Además, su llamativo plumaje y su capacidad para comunicarse los convierten en criaturas fascinantes de observar.",
+  "description": "El loro es un ave exótica y colorida, conocida por su distintivo plumaje brillante y su habilidad para hablar y imitar sonidos. Su tamaño varía dependiendo de la especie, pero generalmente son de tamaño mediano, con una longitud de entre 30 y 40 centímetros. Su cuerpo es robusto y compacto, con patas fuertes y un pico robusto y curvado. Los loros son sociables por naturaleza y se encuentran en hábitats tropicales y subtropicales alrededor del mundo. Son animales inteligentes y muy curiosos, capaces de aprender trucos y comandos, lo que los convierte en mascotas populares.",
   "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/95481341/1800",
   "facts": {
     "tipoHabitad": "Selva",
-    "otrosDatos": "Mayormente diurnos y sociales, con jerarquías en grupos.",
     "tipoDieta": "Frugívora",
-    "añosDeVida": 60,
+    "anosDeVida": 60,
     "pesoEnKilos": 0.4,
   }
 },
@@ -204,13 +189,12 @@ export default [
   "id": "leon",
   "name": "Leon",
   "shortDescription": "Un mamífero carnívoro de gran tamaño y fuerza.",
-  "description": "El león es un majestuoso y poderoso felino, conocido como el rey de la selva. Con un imponente porte y una melena que le otorga un aspecto imponente, es fácil reconocerlo en la naturaleza. Su cuerpo es robusto y musculoso, adaptado para la caza y la defensa de su territorio. Sus garras afiladas le permiten sujetar presas y desgarrar carne con facilidad. Con una mirada intensa y ojos amarillos, el león transmite autoridad y dominio. Su rugido es reconocible y resonante, utilizado para marcar territorio y comunicarse con otros de su especie. Con una esperanza de vida de aproximadamente 10 a 14 años, el león demuestra ser un depredador formidable y respetado en el reino animal.",
+  "description": "El león es un majestuoso y poderoso felino, conocido como el rey de la selva. Con un imponente porte y una melena que le otorga un aspecto imponente, es fácil reconocerlo en la naturaleza. Su cuerpo es robusto y musculoso, adaptado para la caza y la defensa de su territorio. Sus garras afiladas le permiten sujetar presas y desgarrar carne con facilidad. Con una mirada intensa y ojos amarillos, el león transmite autoridad y dominio. Su rugido es reconocible y resonante, utilizado para marcar territorio y comunicarse con otros de su especie.",
   "imageUrl": "https://static.nationalgeographic.es/files/styles/image_3200/public/01-lion-populations-nationalgeographic_1777804.jpg?w=1600&h=900",
   "facts": {
     "tipoHabitad": "Sabana Africana",
-    "otrosDatos": "Varía según la especie; algunas en peligro de extinción.",
     "tipoDieta": "Carnívoro",
-    "añosDeVida": 30,
+    "anosDeVida": 30,
     "pesoEnKilos" : 190
   }
 },
@@ -218,13 +202,12 @@ export default [
   "id": "tigre",
   "name": "tigre",
   "shortDescription": "El tigre siberiano es la subespecie más grande de tigre y se encuentra en el este de Rusia.",
-  "description": "El gato es un felino de tamaño mediano, con un cuerpo ágil y esbelto. Su pelaje puede variar en colores y patrones, desde el clásico atigrado hasta colores sólidos como el negro o el blanco. Sus grandes ojos expresivos, generalmente en tonos verdes o amarillos, resaltan en su rostro triangular. Posee orejas puntiagudas y una cola larga y elegante.",
+  "description": "El tigre es un felino de tamaño mediano, con un cuerpo ágil y esbelto. Su pelaje puede variar en colores y patrones, desde el clásico atigrado hasta colores sólidos como el negro o el blanco. Sus grandes ojos expresivos, generalmente en tonos verdes o amarillos, resaltan en su rostro triangular. Posee orejas puntiagudas y una cola larga y elegante. Habita en regiones frías del este de Rusia y China.  son fuente de admiración e inspiración para muchos. Pero a pesar de ser tan venerados, también son vulnerables a la extinción.",
   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Panthera_tigris_corbetti_%28Tierpark_Berlin%29_832-714-%28118%29.jpg/220px-Panthera_tigris_corbetti_%28Tierpark_Berlin%29_832-714-%28118%29.jpg",
   "facts": {
     "tipoHabitad": "Bosque",
-    "otrosDatos": "Habita en regiones frías del este de Rusia y China",
     "tipoDieta": "Carnívoro",
-    "añosDeVida": 20,
+    "anosDeVida": 20,
     "pesoEnKilos": 400
   }
 },
@@ -232,13 +215,12 @@ export default [
   "id": "lobo",
   "name": "lobo",
   "shortDescription": "Mamífero carnívoro de la familia Canidae",
-  "description": "El lobo es una especie de mamífero carnívoro perteneciente la familia de los cánidos. Posee un cuerpo robusto y musculoso, con patas fuertes y garras afiladas. Su pelaje es espeso y está compuesto por diferentes tonalidades de gris, negro y marrón, lo que le permite camuflarse en su hábitat natural. Sus ojos amarillos y penetrantes reflejan su inteligencia y astucia. Además, posee una mandíbula potente con dientes afilados, ideales para cazar y desgarrar la carne de sus presas. Es considerado un animal social, que vive en manadas lideradas por una pareja de alfa. Su aullido característico es una de las formas de comunicación más reconocibles y simbólicas del reino animal.",
+  "description": "El lobo es una especie de mamífero carnívoro perteneciente la familia de los cánidos. Posee un cuerpo robusto y musculoso, con patas fuertes y garras afiladas. Su pelaje es espeso y está compuesto por diferentes tonalidades de gris, negro y marrón, lo que le permite camuflarse en su hábitat natural. Sus ojos amarillos y penetrantes reflejan su inteligencia y astucia. Además, posee una mandíbula potente con dientes afilados, ideales para cazar y desgarrar la carne de sus presas. Es considerado un animal social, que vive en manadas lideradas por una pareja de alfa.",
   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Front_view_of_a_resting_Canis_lupus_ssp.jpg/220px-Front_view_of_a_resting_Canis_lupus_ssp.jpg",
   "facts": {
     "tipoHabitad": "Bosque",
-    "otrosDatos": "Viven prácticamente en todo el mundo.",
     "tipoDieta": "Carnívoro",
-    "añosDeVida": 16,
+    "anosDeVida": 16,
     "pesoEnKilos": 80
   }
 },
@@ -246,13 +228,12 @@ export default [
   "id": "hiena",
   "name": "hiena",
   "shortDescription": "Mamífero del orden de los carnívoros, de 100 a 160 cm de largo y aspecto algo similar a un perro.",
-  "description": "La hiena es un mamífero carnívoro que se encuentra principalmente en África y algunas partes de Asia. Es conocida por su apariencia distintiva, con un cuerpo robusto, patas traseras más cortas que las delanteras y una cabeza grande en comparación con su tamaño. Su pelaje es grueso y áspero, generalmente de color marrón o grisáceo, con manchas oscuras en forma de manchas o rayas. Las hienas son famosas por su risa característica, que suena como una risa humana, y su mandíbula potente, adaptada para romper huesos. Son animales sociales que viven en grupos llamados clanes, liderados por una hembra dominante, y se alimentan de carroña, aunque también cazan en grupo. Son consideradas como uno de los depredadores más eficientes de la naturaleza.",
+  "description": "La hiena es un mamífero carnívoro que se encuentra principalmente en África y algunas partes de Asia. Es conocida por su apariencia distintiva, con un cuerpo robusto, patas traseras más cortas que las delanteras y una cabeza grande en comparación con su tamaño. Su pelaje es grueso y áspero, generalmente de color marrón o grisáceo, con manchas oscuras en forma de manchas o rayas. Las hienas son famosas por su risa característica, que suena como una risa humana, y su mandíbula potente, adaptada para romper huesos. Son animales sociales que viven en grupos llamados clanes.",
   "imageUrl": "https://static9.depositphotos.com/1000393/1184/i/450/depositphotos_11849539-stock-photo-spotted-hyena.jpg",
   "facts": {
     "tipoHabitad": "Montaña",
-    "otrosDatos": "A pesar de su baja diversidad, las hienas son únicas y constituyen un componente vital para los ecosistemas de África y algunos de Asia.",
     "tipoDieta": "Carnívoro",
-    "añosDeVida": 12,
+    "anosDeVida": 12,
     "pesoEnKilos": 55
   }
 },
@@ -264,9 +245,8 @@ export default [
   "imageUrl": "https://okdiario.com/img/2019/09/30/richard-lee-f12btzeevyk-unsplash111.jpg",
   "facts": {
     "tipoHabitad": "Montaña",
-    "otrosDatos": "El águila era sinónimo de poder para muchos pueblos antiguos como los Mochica del antiguo Perú, mayas y aztecas.",
     "tipoDieta": "Carnívoro",
-    "añosDeVida": 30,
+    "anosDeVida": 30,
     "pesoEnKilos": 6
   }
 },
@@ -274,13 +254,12 @@ export default [
   "id": "puma",
   "name": "Puma",
   "shortDescription": "El puma es una especie nativa para Norte América.",
-  "description": "El puma, también conocido como león de montaña o león americano, es un felino de gran tamaño que se encuentra en América. Su cuerpo es robusto y musculoso, adaptado para cazar y trepar árboles. Su pelaje es de color marrón oscuro o grisáceo, con manchas negras en todo el cuerpo, brindándole una excelente camuflaje en su hábitat. Con una longitud de aproximadamente 1.5 metros y un peso de entre 45 y 90 kilogramos, es considerado uno de los carnívoros más grandes del continente. Posee patas traseras fuertes y una increíble agilidad, lo que le permite saltar distancias sorprendentes y cazar silenciosamente a sus presas. El puma es solitario y territorial, siendo conocido por su destreza cazando ciervos y otros mamíferos de tamaño mediano. Es una especie emblemática en la fauna americana y un depredador fundamental en los ecosistemas en los que se encuentra.",
+  "description": "El puma, también conocido como león de montaña o león americano, es un felino de gran tamaño que se encuentra en América. Su cuerpo es robusto y musculoso, adaptado para cazar y trepar árboles. Su pelaje es de color marrón oscuro o grisáceo, con manchas negras en todo el cuerpo, brindándole una excelente camuflaje en su hábitat. Con una longitud de aproximadamente 1.5 metros y un peso de entre 45 y 90 kilogramos, es considerado uno de los carnívoros más grandes del continente. Posee patas traseras fuertes y una increíble agilidad.",
   "imageUrl": "https://www.ngenespanol.com/wp-content/uploads/2023/01/puma-el-animal-de-la-fuerza-y-vitalidad-de-los-pueblos-prehispanicos-felino.jpg",
   "facts": {
     "tipoHabitad": "Bosque",
-    "otrosDatos": "El puma es generalmente solitario y los individuos se evitan deliberadamente, excepto durante el breve periodo de cortejo.",
     "tipoDieta": "Carnívoro",
-    "añosDeVida": 13,
+    "anosDeVida": 13,
     "pesoEnKilos": 103
   }
 },
@@ -289,13 +268,12 @@ export default [
   "id": "vaca",
   "name": "Vaca",
   "shortDescription": "La Vaca (hembra) el Toro (macho). (Bous Taurus) , es un mamífero artiodáctilo de la familia de los bóvidos.",
-  "description": "La vaca es un animal rumiante perteneciente a la familia de los bóvidos. Es de tamaño grande, con un cuerpo robusto y patas fuertes que le permiten desplazarse con facilidad. Su pelaje es generalmente de color blanco y negro, aunque también hay vacas de colores sólidos. Poseen un par de cuernos en forma de U en la cabeza, utilizados tanto para la defensa como para establecer la jerarquía en el grupo. Su dieta se basa principalmente en pasto, hierbas y plantas. Es un animal domesticado que se cría por su carne, leche y cuero, siendo una importante fuente de alimento y recursos para el ser humano.",
+  "description": "La vaca es un animal rumiante perteneciente a la familia de los bóvidos. Es de tamaño grande, con un cuerpo robusto y patas fuertes que le permiten desplazarse con facilidad. Su pelaje es generalmente de color blanco y negro, aunque también hay vacas de colores sólidos. Poseen un par de cuernos en forma de U en la cabeza, utilizados tanto para la defensa como para establecer la jerarquía en el grupo. Su dieta se basa principalmente en pasto, hierbas y plantas. Es un animal domesticado que se cría por su carne, leche y cuero.",
   "imageUrl": "https://www.gastroactitud.com/wp-content/uploads/2021/07/frisona-1280x720.jpg",
   "facts": {
     "tipoHabitad": "Montaña",
-    "otrosdatos": "Se alimentan de hierba y heno. Además, también pueden consumir maíz, soja, sorgo y trigo.",
     "tipoDieta": "Herbívoro",
-    "añosDeVida": 8,
+    "anosDeVida": 8,
     "pesoEnKilos": 1100
   }
 },
@@ -303,13 +281,12 @@ export default [
   "id": "jirafa",
   "name": "Jirafa",
   "shortDescription": "La jirafa (Giraffa camelopardalis) es una especie de mamífero artiodáctilo, de la familia Giraffidae propio de África..",
-  "description": "La jirafa es un majestuoso animal que se destaca por su peculiar aspecto. Posee un cuello largo y delgado, que puede llegar a medir hasta 2,5 metros de longitud, permitiéndole alcanzar las hojas más altas de los árboles. Su pelaje es corto y de un tono marrón claro, con manchas oscuras que varían en forma y tamaño en cada individuo. Sus patas largas y fuertes le proporcionan una gran estabilidad y agilidad al desplazarse por la sabana africana. La jirafa también se caracteriza por tener grandes ojos y orejas, que le permiten detectar posibles amenazas. Con su imponente altura de hasta 5,5 metros y su grácil andar, las jirafas son realmente criaturas fascinantes de observar en su hábitat natural.",
+  "description": "La jirafa es un majestuoso animal que se destaca por su peculiar aspecto. Posee un cuello largo y delgado, que puede llegar a medir hasta 2,5 metros de longitud, permitiéndole alcanzar las hojas más altas de los árboles. Su pelaje es corto y de un tono marrón claro, con manchas oscuras que varían en forma y tamaño en cada individuo. Sus patas largas y fuertes le proporcionan una gran estabilidad y agilidad al desplazarse por la sabana africana. La jirafa también se caracteriza por tener grandes ojos y orejas, que le permiten detectar posibles amenazas.",
   "imageUrl": "https://es.calcuworld.com/wp-content/uploads/sites/2/2018/03/esperanza-de-vida-de-la-jirafa.jpg",
   "facts": {
     "tipoHabitad": "Sabana Africana",
-    "otrosdatos": "Es la más alta de todas las especies de animales terrestres existentes, ya que puede alcanzar una altura máxima de 5,7 m ",
     "tipoDieta": "Herbívoro",
-    "añosDeVida": 25,
+    "anosDeVida": 25,
     "pesoEnKilos": 1600
   }
 },
@@ -317,41 +294,38 @@ export default [
   "id": "bufalo",
   "name": "Bufalo",
   "shortDescription": "Los búfalos son unos bóvidos de gran tamaño procedentes principalmente de la zona del sudeste asiático.",
-  "description": "El búfalo, también conocido como bisonte, es un imponente mamífero que se encuentra principalmente en el continente americano. Destaca por su cuerpo robusto y musculoso, que puede alcanzar hasta los 2 metros de altura y pesar más de 900 kilogramos. Posee una cabeza grande con cuernos en forma de C, lo que le proporciona no solo fuerza y defensa, sino también una apariencia majestuosa. Su pelaje es espeso y áspero, de color marrón oscuro, adaptándose perfectamente a los climas fríos de las praderas, donde suele habitar en manadas. El búfalo es un símbolo de resistencia y libertad en la fauna americana.",
+  "description": "El búfalo, también conocido como bisonte, es un imponente mamífero que se encuentra principalmente en el continente americano. Destaca por su cuerpo robusto y musculoso, que puede alcanzar hasta los 2 metros de altura y pesar más de 900 kilogramos. Posee una cabeza grande con cuernos en forma de C, lo que le proporciona no solo fuerza y defensa, sino también una apariencia majestuosa. Su pelaje es espeso y áspero, de color marrón oscuro, adaptándose perfectamente a los climas fríos de las praderas, donde suele habitar en manadas. El búfalo es un símbolo de resistencia y libertad.",
   "imageUrl": "https://png.pngtree.com/background/20230614/original/pngtree-majestic-buffalo-is-on-the-ground-in-the-desert-picture-image_3506583.jpg",
   "facts": {
     "tipoHabitad": "Sabana Africana",
-    "otrosDatos": "Los búfalos son unos animales de gran tamaño que pueden llegar a medir casi dos metros,",
     "tipoDieta": "Herbívoro",
-    "añosDeVida": 30,
+    "anosDeVida": 30,
     "pesoEnKilos": 1000
   }
 },
 {
   "id": "ardilla",
   "name": "Ardilla",
-  "shortDescription": "Se llama ardilla (del paleohispánico: harda (sin h y en diminutivo) a ciertas especies de roedores esciuromorfos de la familia Sciuridae,",
-  "description": "La ardilla es un mamífero pequeño que pertenece a la familia de los roedores. Su cuerpo es esbelto y su tamaño varía dependiendo de la especie, aunque en promedio mide entre 15 y 30 centímetros de longitud y su cola puede alcanzar hasta 25 centímetros. Su pelaje es denso y suave, generalmente en tonos de marrón y gris que les permite camuflarse en su entorno arbóreo.",
+  "shortDescription": "Se llama ardilla (del paleohispánico: harda (sin h y en diminutivo).",
+  "description": "La ardilla es un mamífero pequeño que pertenece a la familia de los roedores. Su cuerpo es esbelto y su tamaño varía dependiendo de la especie, aunque en promedio mide entre 15 y 30 centímetros de longitud y su cola puede alcanzar hasta 25 centímetros. Su pelaje es denso y suave, generalmente en tonos de marrón y gris. Algunas especies poseen una membrana en cada costado que les permite planear al saltar de un árbol a otro. Pelaje generalmente rojizo o gris,",
   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Ardilla_gris_mexicana.JPG/220px-Ardilla_gris_mexicana.JPG",
   "facts": {
     "tipoHabitad": "Bosque",
-    "otrosDatos": "Son activas durante el día, sobre todo desde media mañana hasta avanzada la tarde, especialmente durante días cálidos y soleados.",
     "tipoDieta": "Herbívoro",
-    "añosDeVida": 18,
+    "anosDeVida": 18,
     "pesoEnKilos": 0.6
   }
 },
 {
   "id": "tucan",
   "name": "Tucan",
-  "shortDescription": "Los tucanes (Ramphastidae) son una familia de aves piciformes muy amplia, ya que alberga seis géneros y cuarenta y dos especies diferentes.",
-  "description":"El tucán, conocido por su llamativo y colorido plumaje, es una especie de ave tropical que despierta admiración a dondequiera que va. Su tamaño promedio oscila entre los 50 y los 70 centímetros de largo, siendo su característica más destacada su enorme pico, que puede llegar a medir casi la mitad de su longitud total. Este pico vibrante y colorido, con tonalidades brillantes de amarillo, verde y rojo, es utilizado tanto para capturar su alimento, como para emitir poderosos llamados de resonancia, que le permiten comunicarse con otros individuos de su especie. Con una dieta basada en frutas, insectos y pequeños animales, el tucán es un símbolo de los bosques tropicales, donde se le puede encontrar en áreas cercanas a las copas de los árboles, característico de su vuelo directo y rápido. Además, su plumaje negro contrasta maravillosamente con los vivos colores de su pico, haciendo del tucán un espectáculo visual único y fascinante.",
+  "shortDescription": "Los tucanes (Ramphastidae) son una familia de aves piciformes.",
+  "description":"El tucán, conocido por su llamativo y colorido plumaje, es una especie de ave tropical que despierta admiración a dondequiera que va. Su tamaño promedio oscila entre los 50 y los 70 centímetros de largo, siendo su característica más destacada su enorme pico, que puede llegar a medir casi la mitad de su longitud total. Este pico vibrante y colorido, con tonalidades brillantes de amarillo, verde y rojo, es utilizado tanto para capturar su alimento, como para emitir poderosos llamados de resonancia.",
   "imageUrl": "https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQpMb9GY3kADxGb9prVezCGADHG6wnfBJY9FHo5E2KxBncVnwREkqr51frX99fb4vwW",
   "facts": {
     "tipoHabitad": "Bosque",
-    "otrosDatos": "Los tucanes combinan sus extensas llamadas vocales con sonidos de golpeteo y repiqueteo de su pico.",
     "tipoDieta": "Herbívoro",
-    "añosDeVida": 20,
+    "anosDeVida": 20,
     "pesoEnKilos": 1.5
   }
 },
@@ -359,13 +333,12 @@ export default [
   "id": "camello",
   "name": "Camello",
   "shortDescription": "Clase: Mamíferos. Orden: Artiodáctilos. Familia: Camélidos. Longitud: 2,5-3 m.",
-  "description":"El camello es un extraordinario animal adaptado a vivir en las zonas áridas y desérticas. Su tamaño puede llegar a ser de hasta 2 metros de altura y 3 metros de longitud, pesando alrededor de 600 kg. Tiene una característica joroba en su espalda, la cual le sirve para almacenar grasa y así poder sobrevivir durante largos periodos sin agua ni comida. Su pelaje es largo, grueso y áspero, de color marrón claro o beige, lo que le ayuda a protegerse del sol y también a mantener una temperatura corporal estable. Su cuello es largo y flexible, lo que le permite alcanzar plantas y arbustos lejanos. Además, posee largas y fuertes patas adaptadas para caminar en terrenos arenosos y correr a velocidades impresionantes. El camello es conocido por su resistencia, puede llegar a caminar hasta 40 km en un solo día, llevando cargas pesadas. Su temperamento es tranquilo y paciente, siendo un animal muy valioso para personas que viven en regiones desérticas, ya que brinda transporte y leche, además de ser utilizado en eventos culturales y deportivos. Sin duda, el camello es un animal asombroso y de vital importancia en su hábitat natural y para aquellos que dependen de él.",
+  "description":"El camello es un extraordinario animal adaptado a vivir en las zonas áridas y desérticas. Su tamaño puede llegar a ser de hasta 2 metros de altura y 3 metros de longitud, pesando alrededor de 600 kg. Tiene una característica joroba en su espalda, la cual le sirve para almacenar grasa y así poder sobrevivir durante largos periodos sin agua ni comida. Su pelaje es largo, grueso y áspero, de color marrón claro o beige, lo que le ayuda a protegerse del sol y también a mantener una temperatura corporal estable. Su cuello es largo y flexible.",
   "imageUrl": "https://curiosfera-animales.com/wp-content/uploads/2021/04/como-es-el-camello.jpg",
   "facts": {
     "tipoHabitad": "Desierto",
-    "otrosDatos": "Las grandes virtudes del camello incluyen la habilidad para transportar cargas pesadas –hasta 200 kilos—y su bien conocida capacidad para sobrevivir en condiciones áridas.",
     "tipoDieta": "Herbívoro",
-    "añosDeVida": 45,
+    "anosDeVida": 45,
     "pesoEnKilos": 700
   }
 },
@@ -374,13 +347,12 @@ export default [
   "id": "gato",
   "name": "Gato",
   "shortDescription": "Felino doméstico conocido por su independencia y cariño.",
-  "description": "El gato es un felino de tamaño mediano, con un cuerpo ágil y esbelto. Su pelaje puede variar en colores y patrones, desde el clásico atigrado hasta colores sólidos como el negro o el blanco. Sus grandes ojos expresivos, generalmente en tonos verdes o amarillos, resaltan en su rostro triangular. Posee orejas puntiagudas y una cola larga y elegante.",
+  "description": "El gato es un felino de tamaño mediano, con un cuerpo ágil y esbelto. Su pelaje puede variar en colores y patrones, desde el clásico atigrado hasta colores sólidos como el negro o el blanco. Sus grandes ojos expresivos, generalmente en tonos verdes o amarillos, resaltan en su rostro triangular. Posee orejas puntiagudas y una cola larga y elegante. Tiene unas uñas muy afiladas que utiliza para cazar y sujetar ratas y ratones. Utiliza la lengua para limpiarse y sus grandes bigotes para guiarse por la noche. Los gatos además son digitígrados ya que, al caminar, solamente apoyan sus dedos.",
   "imageUrl": "https://www.petz.com.br/blog//wp-content/uploads/2021/11/enxoval-para-gato-Copia.jpg",
   "facts": {
     "tipoHabitad": "Hogar",
-    "otrosDatos": "Mascotas y compañía",
     "tipoDieta": "Carnívoro",
-    "añosDeVida": 15,
+    "anosDeVida": 15,
     "pesoEnKilos": 5,
   }
 }
