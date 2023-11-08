@@ -52,8 +52,8 @@ boton.addEventListener("click", function(){
   filtroHabitad.value= ""
   datosFiltrados = data;
   root.innerHTML = renderItems(data);
-  calcular.innerHTML = "Dieta";
-  calcularHabitad.innerHTML = "Habitad"
+  calcular.innerHTML = "<span>Promedio de peso:</span><br>Animales carnivoros";
+  calcularHabitad.innerHTML = "<span>Porcentaje total Habitad:</span><br>Selva";
   parrafo.innerHTML = "";
 });
 
@@ -62,7 +62,7 @@ boton.addEventListener("click", function(){
 const calcular = document.querySelector('#calcular');
 calcular.addEventListener("click", function() {
   const resultCalculo= calculoPeso(data);
-  calcular.innerHTML = "EL PROMEDIO DE PESO DE LOS ANIMALES CARNÍVOROS ES DE:   "  +  resultCalculo  + "  KILOS";
+  calcular.innerHTML = "El peso promedio de los aniamles carnívoros es de:   "  +  resultCalculo  + "  Kilos";
 });
 
 
@@ -70,7 +70,7 @@ calcular.addEventListener("click", function() {
 const calcularHabitad = document.querySelector('#calcularHabitad');
 calcularHabitad.addEventListener("click", function() {
   const resultCalculoH = calculoHabitad(data);
-  calcularHabitad.innerHTML = "LOS ANIMALES QUE VIVEN EN LA SELVA SON  " + resultCalculoH + "%"
+  calcularHabitad.innerHTML = "Los animales que viven en la selva son  " + resultCalculoH + "%"
 })
 
 
@@ -88,16 +88,20 @@ init();
 function arregloVacio() {
   const vacio = datosDietaFiltrados;
   if (vacio.length !== 0){
-    parrafo.innerHTML = " "; }else{
+    parrafo.innerHTML = " ";
+  }else{
     parrafo.innerHTML = "No hay datos para mostrar";
     return parrafo
   }
 }
 
+
 //MENU HAMBURGUESA
+
 const contenedor1 = document.querySelector("#contenedor1");
 const cerrar = document.querySelector("#cerrar-menu");
 const abrir = document.querySelector("#abrir-menu");
+
 abrir.addEventListener("click", () =>{
   contenedor1.classList.add("visible")
 })

@@ -73,6 +73,7 @@ export default [
     "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1422023439-64f1eaf518ace.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*",
     "facts": {
       "tipoHabitad": "Hogar",
+      "tipoDieta": "Omnívora",
       "anosDeVida": 15,
       "pesoEnKilos": 90,
     }

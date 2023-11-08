@@ -7,7 +7,7 @@ export const renderItems = (data) => {
      <li itemscope itemtype="animal" class="box">
 
      <dl>
-     <h2 class="id">${animal.id}</h2>
+     <h2 class="id">${animal.name}</h2>
      <img src="${animal.imageUrl}" alt=${animal.name}/>
      <dt>Nombre:</dt>
      <dd itemprop ='' class="parrafoBox">${animal.name}</dd>
