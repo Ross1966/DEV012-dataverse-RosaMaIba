@@ -252,6 +252,7 @@ label{
 #sinDatos{
     text-align: center;
     font-size: 25px;
+    color: #ffffff;
 
 }
 
@@ -367,6 +368,7 @@ label{
        
         text-align: center;
         font-size: 25px;
+        color: #ffffff;
     }
     .parrafoBox{
         font-size: 11px;
@@ -485,6 +487,7 @@ label{
        
         text-align: center;
         font-size: 25px;
+        color: #ffffff;
     }
 }
 
@@ -602,6 +605,7 @@ label{
        
         text-align: center;
         font-size: 25px;
+        color: #ffffff;
     }
 }
 
@@ -719,6 +723,7 @@ label{
        
         text-align: center;
         font-size: 25px;
+        color: #ffffff;
     }
 }
 @media (min-width: 280px) and (max-width: 290px){
@@ -836,5 +841,6 @@ label{
        
         text-align: center;
         font-size: 25px;
+        color: #ffffff;
     }
 }
