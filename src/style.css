@@ -253,6 +253,7 @@ label{
     text-align: center;
     font-size: 25px;
     color: #ffffff;
+    margin-left: 400px;
 
 }
 
@@ -369,6 +370,7 @@ label{
         text-align: center;
         font-size: 25px;
         color: #ffffff;
+        margin-left: 20px;
     }
     .parrafoBox{
         font-size: 11px;
@@ -488,6 +490,7 @@ label{
         text-align: center;
         font-size: 25px;
         color: #ffffff;
+        margin-left: 0px;
     }
 }
 
@@ -606,6 +609,7 @@ label{
         text-align: center;
         font-size: 25px;
         color: #ffffff;
+        margin-left: 0px;
     }
 }
 
@@ -724,6 +728,7 @@ label{
         text-align: center;
         font-size: 25px;
         color: #ffffff;
+        margin-left: 0px;
     }
 }
 @media (min-width: 280px) and (max-width: 290px){
@@ -842,5 +847,6 @@ label{
         text-align: center;
         font-size: 25px;
         color: #ffffff;
+        margin-left: 0px;
     }
 }
