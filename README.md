@@ -1,12 +1,11 @@
 # Dataverse InfoZoo
 
-## Índice
 
 * [1. Preámbulo](#1-Preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Historia de Usuario](#3-Historia-de-usuario)
-
-
+* [3. Diseño de la Interfaz de Usuaria](#3-diseño-de-la-interfaz-de-usuaria)
+* [4. Historia de Usuario](#4-Historia-de-usuario)
+* [5. Captura de pantalla del prompt utilizado para generar los datos](#5-captura-de-pantalla-del-prompt-utilizado-para-generar-los-datos)
 
 
 ## 1. Preámbulo
@@ -18,7 +17,6 @@ Vainilla Javascript, el ambiente utilizado fué el Node, y para su creación se 
 Se creó un diseño responsive utilizando flexbox y css, es decir adaptable a cualquier tipo de pantalla que el usuario eliga.
 
 El proyecto se subió a github.
-
 
 ## 2. Resumen del proyecto
 
@@ -40,8 +38,25 @@ Cálculos:
 El botón de limpiar nos sirve para regresar a nuestra lista original después de haber aplicado los filtros a nuestros datos.
 
 
+## 3. Diseño de la Interfaz de Usuaria
 
-## 3. Historia de usuario
+Buscamos crear una interfaz simple pero atractiva al usuario en donde pueda observar el contenido en tarjetas de una forma facil, creamos tres columnas para la versión en desktop, dos columnas para la versión en tablet y 1 columna para la versión en mobile.
+En la version mobile y tablet creamos un menú hamburguesa en donde se podra filtrar, ordenar y limpiar el contenido de igual manera que el la interfaz desktop, pero de una forma mas compacta. De esta forma lo que esperamos es que el usuario tenga una vista completa de las tarjetas.
+
+### a. Prototipo desktop:
+
+![Alt text](image.png) ![Alt text](image-1.png)
+
+### b. Prototipo Mobile:
+
+![Alt text](image-2.png) ![Alt text](image-3.png)
+
+### c. Prototipo Tablet:
+
+![Alt text](image-4.png) ![Alt text](image-5.png)
+
+
+## 4. Historia de usuario
 
 Como entregable final tendrás una página web que permita **visualizar la data, filtrarla, ordenarla y calcular alguna estadística.
 
@@ -58,7 +73,9 @@ En las funciones realizamos los filtros, el ordenamiento de los datos, la de rei
 Por último se creó el diseño, el cual primero fué hecho en Css puro, para despues implementar un diseño responsive en el cuál se utilizaron los mediaquerys específicos para cada tamaño de pantalla.
 
 
+## 5. Captura de pantalla del prompt utilizado para generar los datos
 
+ ![Alt text](image-7.png) ![Alt text](image-6.png)
 
 
 
