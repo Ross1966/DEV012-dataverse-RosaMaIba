@@ -18,7 +18,7 @@ Se creó un diseño responsive utilizando flexbox y css, es decir adaptable a cu
 
 El proyecto se subió a github.
 
-# 2. Resumen del proyecto
+## 2. Resumen del proyecto
 
 En este proyecto llamado InfoZoo, damos la información de un conjunto de animales los cuales se dividen por su tipo de alimentación (Dieta) como son: Hervívoros, Carnívoros, Omnívoros, Insectívoros y Frugívoros.
 
